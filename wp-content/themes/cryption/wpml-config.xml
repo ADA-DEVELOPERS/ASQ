@@ -1,0 +1,16 @@
+<wpml-config>
+    <custom-fields>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">ct_pf_item</custom-type>
+        <custom-type translate="1">ct_qf_item</custom-type>
+        <custom-type translate="1">ct_news</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">ct_portfolios</taxonomy>
+    </taxonomies>
+    <admin-texts>
+    </admin-texts>
+</wpml-config>
+
+

@@ -1,0 +1,87 @@
+/* LayerSlider CT */
+
+
+
+.ls-ct .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-ct .ls-nav-sides,
+.ls-ct .ls-bottom-nav-wrapper,
+.ls-ct .ls-bottom-slidebuttons a,
+.ls-ct .ls-nav-start,
+.ls-ct .ls-nav-stop {
+	display: none;
+	visibility: hidden;
+}
+
+@media (max-width: 767px) {
+	.ls-ct a.ls-nav-prev,
+	.ls-ct a.ls-nav-next {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
+.ls-ct .ls-playvideo,
+.ls-ct .ls-loading-container,
+.ls-ct .ls-fullscreen {
+	background-image: url(skin.png);
+}
+
+.ls-ct .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-ct .ls-playvideo:hover,
+.ls-ct .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-ct .ls-thumbnail {
+	top: 0px;
+}
+
+.ls-ct .ls-thumbnail-inner {
+	padding: 5px;
+	margin-left: -5px;
+}
+
+.ls-ct .ls-thumbnail-slide a {
+	margin-right: 5px;
+}
+
+.ls-ct .ls-nothumb {
+	background: #eee;
+}
+
+.ls-ct .ls-loading-container {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	background-position: -450px -150px;
+}
+
+.ls-ct .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 9px;
+	background-image: url(loading.gif);
+}
+
+.ls-ct .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-ct .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}

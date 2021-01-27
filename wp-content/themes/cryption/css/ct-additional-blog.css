@@ -1,0 +1,72 @@
+/* ADDITIONAL STYLES FOR BLOG */
+
+/* FEATURED IMAGES HOVER */
+body .blog article .post-featured-content > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+body .blog article .post-featured-content > a:before,
+body .blog .ct-simple-gallery .ct-gallery-item a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    background-color: rgba(9, 201, 136, 0.8);
+}
+body .blog article .post-featured-content > a:hover:before,
+body .blog .ct-simple-gallery .ct-gallery-item a:hover:before{
+    opacity: 1;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+body .blog article .post-featured-content > a:after,
+body .blog .ct-simple-gallery .ct-gallery-item a:after{
+    content: '\e628';
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: 'ct-icons';
+    font-size: 35px;
+    line-height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: top 0.4s, opacity 0.4s, -webkit-transform 0s 0.4s;
+    transition: top 0.4s, opacity 0.4s, transform 0s 0.4s;
+    z-index: 10;
+}
+body .blog article .post-featured-content > a:hover:after,
+body .blog .ct-simple-gallery .ct-gallery-item a:hover:after{
+    opacity: 1;
+    top: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: top 0s, opacity 0.4s, -webkit-transform 0.4s;
+    transition: top 0s, opacity 0.4s, transform 0.4s;
+}
+body .blog article .post-featured-content a > img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.2s linear;
+    transition: transform 0.2s linear;
+}
+body .blog article .post-featured-content a:hover > img{
+    -webkit-transition: -webkit-transform 0.2s linear;
+    transition: transform 0.2s linear;
+}

@@ -1,0 +1,4220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CT Wordpress Theme\n"
+"POT-Creation-Date: 2018-01-18 15:28+0300\n"
+"PO-Revision-Date: 2018-01-18 15:29+0300\n"
+"Last-Translator: \n"
+"Language-Team: Codex Themes\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:27
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:18
+#, fuzzy
+msgid "Comments"
+msgstr "% Comentarios"
+
+#: comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:42
+msgid "Name"
+msgstr ""
+
+#: comments.php:43
+msgid "Mail"
+msgstr ""
+
+#: comments.php:44 inc/options.php:1857 inc/options.php:1887
+msgid "Website"
+msgstr "Web:"
+
+#: comments.php:48
+msgid "Message *"
+msgstr ""
+
+#: comments.php:49 comments.php:57
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:50
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:50
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:50
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:52
+msgid "Send Comment"
+msgstr "Enviar Comentarios"
+
+#: comments.php:55
+msgid "Leave a "
+msgstr ""
+
+#: comments.php:55
+msgid "comment"
+msgstr ""
+
+#: comments.php:56
+#, php-format
+msgid "Comment to %s"
+msgstr ""
+
+#: comments.php:64
+msgid "Prev"
+msgstr ""
+
+#: comments.php:65
+msgid "Next"
+msgstr ""
+
+#: content-blog-item.php:17 content-page.php:66
+#: ct-templates/blog/content-blog-item-justified.php:8
+#: ct-templates/blog/content-blog-item-masonry.php:8
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: content-blog-item.php:50
+#: ct-templates/blog/content-blog-item-justified.php:92
+#: ct-templates/blog/content-blog-item-masonry.php:100
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: content-blog-item.php:73 ct-templates/blog/content-blog-item-masonry.php:120
+#, fuzzy
+msgid "Read More"
+msgstr "Leer Más"
+
+#: content-none.php:2
+msgid "<span class=\"light\">Nothing</span> Found"
+msgstr ""
+
+#: content-none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:78
+msgid "Previous post"
+msgstr "Post Anterior"
+
+#: content-page.php:80
+msgid "Next post"
+msgstr "Post Siguiente"
+
+#: content-page.php:86
+msgid "By"
+msgstr ""
+
+#: content-page.php:97 content.php:49
+msgid "Pages:"
+msgstr ""
+
+#: content.php:47
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ct-templates/blog/content-blog-item-justified.php:113
+msgid " Read More"
+msgstr ""
+
+#: ct-templates/blog/content-blog-item-slider.php:56
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ct-templates/portfolios/content-portfolio-item-1x.php:158
+#: ct-templates/portfolios/content-portfolio-item-1x.php:201
+msgctxt "in categories"
+msgid "in"
+msgstr ""
+
+#: ct-templates/portfolios/content-portfolio-item-1x.php:214
+msgid "Launch"
+msgstr ""
+
+#: ct-templates/portfolios/content-portfolio-item-1x.php:215
+msgid "Details"
+msgstr ""
+
+#: ct-templates/quickfinders/content-quickfinder-item.php:48
+msgid "Read more"
+msgstr "Leer Más"
+
+#: ct-templates/teams/content-team-person.php:23
+#: ct-templates/teams/content-teams-widget.php:25
+msgid "Send Message"
+msgstr ""
+
+#: demo-import/import.php:85
+#, php-format
+msgid "Importing demo content. Attachments imported %1$d of %2$d"
+msgstr ""
+
+#: demo-import/import.php:87
+msgid "Importing demo content."
+msgstr ""
+
+#: demo-import/import.php:90
+msgid "Importing widgets, sliders. Updating site settings and theme options"
+msgstr ""
+
+#: demo-import/import.php:108 demo-import/import.php:109
+#: demo-import/import.php:118 demo-import/import.php:127
+msgid "AVXBuilder Demo Import"
+msgstr ""
+
+#: demo-import/import.php:140
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: demo-import/import.php:145
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme."
+msgstr ""
+
+#: demo-import/import.php:146
+msgid ""
+"It will allow you to quickly edit everything instead of creating content "
+"from scratch."
+msgstr ""
+
+#: demo-import/import.php:151
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: demo-import/import.php:154
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: demo-import/import.php:155
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: demo-import/import.php:156
+msgid ""
+"<strong>Please click on the Import button only once and wait, it can take up "
+"to 30 minutes to import demo media attachments.</strong>"
+msgstr ""
+
+#: demo-import/import.php:157
+msgid ""
+"Please be sure, that this WordPress installation has <strong>direct</strong> "
+"write file access. AVXBuilder demo import needs it in order to save the demo "
+"import xml file to the upload directory of your site. You can change this "
+"setting with these instructions: <a href=\"http://gregorcapuder.com/"
+"wordpress-how-to-set-direct-filesystem-method/\" target=\"_blank\">How to "
+"set <strong>direct</strong> filesystem method</a>."
+msgstr ""
+
+#: functions.php:30
+msgid "Top primary menu"
+msgstr ""
+
+#: functions.php:31
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:93
+msgid "Upload directory cannot be created. Check your permissions."
+msgstr ""
+
+#: functions.php:106
+msgid "Link"
+msgstr ""
+
+#: functions.php:114
+msgid "Show as Highlight?"
+msgstr ""
+
+#: functions.php:125
+msgid "Highlight Type"
+msgstr ""
+
+#: functions.php:181
+msgid "Main Page Sidebar"
+msgstr ""
+
+#: functions.php:183 functions.php:192 functions.php:201
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: functions.php:190
+msgid "VC Page Sidebar 01"
+msgstr ""
+
+#: functions.php:199
+msgid "VC Page Sidebar 02"
+msgstr ""
+
+#: functions.php:208
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer Widget Area."
+msgstr ""
+
+#: functions.php:226
+msgid "Back"
+msgstr ""
+
+#: functions.php:227
+msgid "Show this page"
+msgstr ""
+
+#: functions.php:360
+msgid "Select icon"
+msgstr ""
+
+#: functions.php:502
+msgctxt " font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:754
+#, php-format
+msgid ""
+"<span class=\"light\">Search Results</span> <span class=\"highlight\">\"%1$s"
+"\"</span>"
+msgstr ""
+
+#: functions.php:759
+msgid "Page not found"
+msgstr ""
+
+#: functions.php:943
+msgid "Styled Subtitle"
+msgstr ""
+
+#: functions.php:948
+msgid "Title H1"
+msgstr ""
+
+#: functions.php:953
+msgid "Title H2"
+msgstr ""
+
+#: functions.php:958
+msgid "Title H3"
+msgstr ""
+
+#: functions.php:963
+msgid "Title H4"
+msgstr ""
+
+#: functions.php:968
+msgid "Title H5"
+msgstr ""
+
+#: functions.php:973
+msgid "Title H6"
+msgstr ""
+
+#: functions.php:978
+msgid "XLarge Title"
+msgstr ""
+
+#: functions.php:983
+msgid "Letter-spacing Title"
+msgstr ""
+
+#: functions.php:988
+msgid "Light Title"
+msgstr ""
+
+#: functions.php:993
+msgid "Body small"
+msgstr ""
+
+#: functions.php:1499 functions.php:1516
+msgid "Fonts Manager"
+msgstr ""
+
+#: functions.php:1520 functions.php:1549
+#: inc/megamenu/edit-megamenu-walker.class.php:383
+msgid "Remove"
+msgstr ""
+
+#: functions.php:1522 functions.php:1551
+msgid "Font name"
+msgstr ""
+
+#: functions.php:1526 functions.php:1555
+msgid "Font file EOT url"
+msgstr ""
+
+#: functions.php:1530 functions.php:1559
+msgid "Font file SVG url"
+msgstr ""
+
+#: functions.php:1534 functions.php:1563
+msgid "ID inside SVG"
+msgstr ""
+
+#: functions.php:1538 functions.php:1567
+msgid "Font file TTF url"
+msgstr ""
+
+#: functions.php:1542 functions.php:1571
+msgid "Font file WOFF url"
+msgstr ""
+
+#: functions.php:1577
+msgid "+ Add new"
+msgstr ""
+
+#: functions.php:1578
+msgid "Save"
+msgstr ""
+
+#: functions.php:1674
+msgid "CT Avatar"
+msgstr ""
+
+#: functions.php:1676
+msgid "CT Avatar 2"
+msgstr ""
+
+#: functions.php:1684
+#, fuzzy
+msgid "Load more..."
+msgstr "Cargar Más"
+
+#: functions.php:1834 inc/shortcodes.php:540 inc/shortcodes.php:866
+#: inc/shortcodes.php:1074 inc/shortcodes.php:1268 inc/shortcodes.php:1744
+#: inc/shortcodes.php:2099
+msgid "Elegant"
+msgstr ""
+
+#: functions.php:1834 inc/shortcodes.php:540 inc/shortcodes.php:866
+#: inc/shortcodes.php:1074 inc/shortcodes.php:1268 inc/shortcodes.php:1744
+#: inc/shortcodes.php:2099
+msgid "Material Design"
+msgstr ""
+
+#: functions.php:1834 inc/shortcodes.php:540 inc/shortcodes.php:866
+#: inc/shortcodes.php:1074 inc/shortcodes.php:1268 inc/shortcodes.php:1744
+#: inc/shortcodes.php:2099
+msgid "FontAwesome"
+msgstr ""
+
+#: functions.php:1836
+msgid "UserPack"
+msgstr ""
+
+#: functions.php:1846 inc/megamenu/edit-megamenu-walker.class.php:220
+msgid "Enter icon code"
+msgstr ""
+
+#: functions.php:1847 functions.php:1848 functions.php:1849 functions.php:1851
+#: inc/megamenu/edit-megamenu-walker.class.php:221
+msgid "Icons info"
+msgstr ""
+
+#: functions.php:1847
+msgid "Show Elegant Icon Codes"
+msgstr ""
+
+#: functions.php:1848
+msgid "Show Material Design Icon Codes"
+msgstr ""
+
+#: functions.php:1849 inc/megamenu/edit-megamenu-walker.class.php:221
+msgid "Show FontAwesome Icon Codes"
+msgstr ""
+
+#: functions.php:1851
+msgid "Show UserPack Icon Codes"
+msgstr ""
+
+#: functions.php:1893
+msgid "Search..."
+msgstr ""
+
+#: functions.php:1896 functions.php:1900
+msgid "Search"
+msgstr ""
+
+#: header.php:62 header.php:78 header.php:79 header.php:86 header.php:87
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/content.php:28
+msgid "Address:"
+msgstr ""
+
+#: inc/content.php:31
+msgid "Phone:"
+msgstr "Teléfono"
+
+#: inc/content.php:34
+msgid "Fax:"
+msgstr "Local:"
+
+#: inc/content.php:37
+msgid "Email:"
+msgstr ""
+
+#: inc/content.php:40
+msgid "Website:"
+msgstr "Web:"
+
+#: inc/content.php:90
+msgid "Related"
+msgstr ""
+
+#: inc/content.php:91
+msgid "posts"
+msgstr ""
+
+#: inc/content.php:147
+#, php-format
+msgid "<div class=\"fn title-h6\">%s</div>"
+msgstr ""
+
+#: inc/content.php:151
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/content.php:151
+msgid "(Edit)"
+msgstr ""
+
+#: inc/content.php:160
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/content.php:179 inc/content.php:467
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/content.php:198
+msgid "/ About Author"
+msgstr ""
+
+#: inc/content.php:200
+#, php-format
+msgid "More posts by %s"
+msgstr ""
+
+#: inc/content.php:237
+#, fuzzy
+msgid "<span class=\"sep\"></span>"
+msgstr "<span class=\"meta-nav\">Post Anterior</span>%title"
+
+#: inc/content.php:267 inc/shortcodes.php:1582 inc/shortcodes.php:1615
+#: inc/shortcodes.php:1971 inc/shortcodes.php:2175
+msgid "Load More"
+msgstr "Cargar Más"
+
+#: inc/image-generator/image-generator.php:183
+msgid "Purge Thumbnails Cache"
+msgstr ""
+
+#: inc/image-generator/image-generator.php:192
+msgid "Theme thumbnails"
+msgstr ""
+
+#: inc/image-generator/image-generator.php:267
+msgid "Cached post thumbnails have been deleted successfully!"
+msgstr ""
+
+#: inc/image-generator/image-generator.php:271
+msgid "All cached thumbnails have been deleted successfully!"
+msgstr ""
+
+#: inc/image-generator/image-generator.php:275
+msgid "Nonce verification is faield!"
+msgstr ""
+
+#: inc/image-generator/image-generator.php:279
+msgid "Post not found"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:91
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:95
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:118
+msgid "sub item"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:133
+msgid "Move up"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:146
+msgid "Move down"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:148
+#: inc/megamenu/edit-megamenu-walker.class.php:150
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:159
+msgid "URL"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:166
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:172
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:179
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:184
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:190
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:196
+msgid "Description"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:198
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:206
+msgid "Make clickable on mobile"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:217 inc/post-types/init.php:135
+#: inc/post-types/init.php:149 inc/shortcodes.php:544 inc/shortcodes.php:554
+#: inc/shortcodes.php:564 inc/shortcodes.php:576 inc/shortcodes.php:872
+#: inc/shortcodes.php:883 inc/shortcodes.php:894 inc/shortcodes.php:907
+#: inc/shortcodes.php:1084 inc/shortcodes.php:1095 inc/shortcodes.php:1106
+#: inc/shortcodes.php:1119 inc/shortcodes.php:1273 inc/shortcodes.php:1283
+#: inc/shortcodes.php:1293 inc/shortcodes.php:1305 inc/shortcodes.php:1754
+#: inc/shortcodes.php:1765 inc/shortcodes.php:1776 inc/shortcodes.php:2109
+#: inc/shortcodes.php:2120 inc/shortcodes.php:2131 inc/shortcodes.php:2144
+msgid "Icon"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:230
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:236
+msgid "Mega Menu Style"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:248
+msgid "Mega Menu Masonry Style"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:254
+msgid "Number of columns: "
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:265 inc/shortcodes.php:385
+msgid "Background image"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:267
+msgid "Select"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:273
+msgid "Position: "
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:283
+msgid "Padding: "
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:287 inc/options.php:163
+#: inc/options.php:213 inc/post-types/init.php:55 inc/post-types/init.php:380
+#: inc/shortcodes.php:406 inc/shortcodes.php:691 inc/shortcodes.php:921
+#: inc/shortcodes.php:1133 inc/shortcodes.php:1167 inc/shortcodes.php:1319
+#: inc/shortcodes.php:1855 inc/shortcodes.php:2158
+msgid "Left"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:294 inc/options.php:164
+#: inc/options.php:214 inc/post-types/init.php:55 inc/post-types/init.php:380
+#: inc/shortcodes.php:407 inc/shortcodes.php:692 inc/shortcodes.php:921
+#: inc/shortcodes.php:1133 inc/shortcodes.php:1167 inc/shortcodes.php:1319
+#: inc/shortcodes.php:1855 inc/shortcodes.php:2158
+msgid "Right"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:301 inc/shortcodes.php:415
+#: inc/shortcodes.php:700
+msgid "Top"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:308 inc/shortcodes.php:417
+#: inc/shortcodes.php:702
+msgid "Bottom"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:318
+msgid "Column width"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:326
+msgid "Don't link"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:333
+msgid "Don't show"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:340
+msgid "This item should start a new row"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:347
+msgid "Label"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:358
+msgid "Move"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:359
+msgid "Up one"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:360
+msgid "Down one"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:363
+msgid "To the top"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:370
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/megamenu/edit-megamenu-walker.class.php:384
+msgid "Cancel"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:20 inc/shortcodes.php:725
+msgid "Left Top"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:21
+msgid "Left Center"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:22 inc/shortcodes.php:728
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:23
+msgid "Center Top"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:24
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:25
+msgid "Center Center"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:26 inc/shortcodes.php:726
+msgid "Right Top"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:27
+msgid "Right Center"
+msgstr ""
+
+#: inc/megamenu/megamenu.class.php:28 inc/shortcodes.php:727
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/options.php:7
+msgid "General"
+msgstr ""
+
+#: inc/options.php:10
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/options.php:13
+msgid "Page Layout Style"
+msgstr ""
+
+#: inc/options.php:16
+msgid "Fullwidth Layout"
+msgstr ""
+
+#: inc/options.php:17
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/options.php:20
+msgid "Select theme layout style"
+msgstr ""
+
+#: inc/options.php:23
+msgid "Disable \"Scroll To Top\" Button"
+msgstr ""
+
+#: inc/options.php:24
+msgid "Disable on-scroll \"to the top\" button"
+msgstr ""
+
+#: inc/options.php:30 inc/options.php:31
+msgid "Disable \"Smooth Scroll\""
+msgstr ""
+
+#: inc/options.php:37 inc/options.php:38 inc/post-types/init.php:296
+msgid "Enable Page Preloader"
+msgstr ""
+
+#: inc/options.php:46
+msgid "Identity"
+msgstr ""
+
+#: inc/options.php:49
+msgid "Desktop Logo Width For Non-Retina Screens"
+msgstr ""
+
+#: inc/options.php:54
+msgid "On our demo website we use 164 pix. logo"
+msgstr ""
+
+#: inc/options.php:57
+msgid "Mobile Logo Width For Non-Retina Screens"
+msgstr ""
+
+#: inc/options.php:62
+msgid "On our demo website we use 132 pix. logo"
+msgstr ""
+
+#: inc/options.php:65
+msgid "Desktop Logo"
+msgstr ""
+
+#: inc/options.php:68
+msgid ""
+"Upload your logo for desktop screens here. Pls note: if you wish to achieve "
+"best quality on retina screens, your logo size should be 3 times larger as "
+"the size you have set in \"Desktop Logo Width For Non-Retina Screens\". On "
+"our demo website we use 164 x 3 = 492 pix"
+msgstr ""
+
+#: inc/options.php:71
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/options.php:74
+msgid ""
+"Upload your logo for mobile screens here. Pls note: if you wish to achieve "
+"best quality on retina mobile screens, your logo size should be 3 times "
+"larger as the size you have set in \"Mobile Logo Width For Non-Retina Screens"
+"\". On our demo website we use 132 x 3 = 396 pix"
+msgstr ""
+
+#: inc/options.php:77
+msgid "Light Desktop Logo"
+msgstr ""
+
+#: inc/options.php:80
+msgid ""
+"Here you can upload a light version of your desktop logo to be used on dark "
+"header backgrounds. Pls note: if you wish to achieve best quality on retina "
+"screens, your logo size should be 3 times larger as the size you have set in "
+"\"Desktop Logo Width For Non-Retina Screens\". On our demo website we use "
+"164 x 3 = 492 pix"
+msgstr ""
+
+#: inc/options.php:83
+msgid "Light Mobile Logo"
+msgstr ""
+
+#: inc/options.php:86
+msgid ""
+"Here you can upload a light version of your mobile logo to be used on dark "
+"header backgrounds. Pls note: if you wish to achieve best quality on retina "
+"screens, your logo size should be 3 times larger as the size you have set in "
+"\"Mobile Logo Width For Non-Retina Screens\". On our demo website we use 132 "
+"x 3 = 396 pix"
+msgstr ""
+
+#: inc/options.php:91
+msgid "Advanced"
+msgstr ""
+
+#: inc/options.php:94
+msgid "Preloader Style"
+msgstr ""
+
+#: inc/options.php:97
+msgid "Preloader 1"
+msgstr ""
+
+#: inc/options.php:98
+msgid "Preloader 2"
+msgstr ""
+
+#: inc/options.php:99
+msgid "Preloader 3"
+msgstr ""
+
+#: inc/options.php:100
+msgid "Preloader 4"
+msgstr ""
+
+#: inc/options.php:103
+msgid "Choose preloader you wish to use on your website"
+msgstr ""
+
+#: inc/options.php:106
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/options.php:108
+msgid ""
+"Type your custom css here, which you would like to add to theme's css (or "
+"overwrite it)"
+msgstr ""
+
+#: inc/options.php:111
+msgid "Custom JS"
+msgstr ""
+
+#: inc/options.php:113
+msgid ""
+"Type your custom javascript here, which you would like to add to theme's js"
+msgstr ""
+
+#: inc/options.php:118
+msgid "Additional Settings"
+msgstr ""
+
+#: inc/options.php:121
+msgid "Custom 404 Page"
+msgstr ""
+
+#: inc/options.php:127 inc/options.php:128
+msgid "Enabe Lazy Loading Animations On Mobiles"
+msgstr ""
+
+#: inc/options.php:139
+msgid "Header"
+msgstr ""
+
+#: inc/options.php:142
+msgid "Main Menu &amp; Header Area"
+msgstr ""
+
+#: inc/options.php:145
+msgid "Disable Fixed Header"
+msgstr ""
+
+#: inc/options.php:151
+msgid "Main Menu & Header Layout "
+msgstr ""
+
+#: inc/options.php:154 inc/shortcodes.php:442
+msgid "Horizontal"
+msgstr ""
+
+#: inc/options.php:155
+msgid "100% Width"
+msgstr ""
+
+#: inc/options.php:157
+msgid "Choose the layout for displaying your main menu and website header."
+msgstr ""
+
+#: inc/options.php:160
+msgid "Logo Alignment"
+msgstr ""
+
+#: inc/options.php:165
+msgid "Centered Above Main Menu"
+msgstr ""
+
+#: inc/options.php:166
+msgid "Centered In Main Menu"
+msgstr ""
+
+#: inc/options.php:169
+msgid "Select position of your logo in website header"
+msgstr ""
+
+#: inc/options.php:172
+msgid "Menu appearance on tablets (portrait orientation)"
+msgstr ""
+
+#: inc/options.php:175 inc/options.php:186
+msgid "Responsive"
+msgstr ""
+
+#: inc/options.php:176 inc/options.php:187 inc/options.php:215
+#: inc/shortcodes.php:1143
+msgid "Centered"
+msgstr ""
+
+#: inc/options.php:177 inc/options.php:188 inc/options.php:2199
+#: inc/shortcodes.php:393 inc/shortcodes.php:605 inc/shortcodes.php:678
+#: inc/shortcodes.php:736 inc/shortcodes.php:750 inc/shortcodes.php:1555
+#: inc/shortcodes.php:2308
+msgid "Default"
+msgstr ""
+
+#: inc/options.php:180
+msgid ""
+"Select the menu appearance style on tablet screens in portrait orientation"
+msgstr ""
+
+#: inc/options.php:183
+msgid "Menu appearance on tablets (landscape orientation)"
+msgstr ""
+
+#: inc/options.php:191
+msgid ""
+"Select the menu appearance style on tablet screens in landscape orientation"
+msgstr ""
+
+#: inc/options.php:196
+msgid "Top Area"
+msgstr ""
+
+#: inc/options.php:199 inc/shortcodes.php:733
+msgid "Top Area Style"
+msgstr ""
+
+#: inc/options.php:202 inc/shortcodes.php:1471 inc/shortcodes.php:1592
+#: inc/shortcodes.php:1920
+msgid "Disabled"
+msgstr ""
+
+#: inc/options.php:203
+msgid "Light Background"
+msgstr ""
+
+#: inc/options.php:204
+msgid "Dark Background"
+msgstr ""
+
+#: inc/options.php:205
+msgid "Anthracite Background"
+msgstr ""
+
+#: inc/options.php:207
+msgid ""
+"Select the style of top area (contacts & socials bar above main menu and "
+"logo) or disable it"
+msgstr ""
+
+#: inc/options.php:210
+msgid "Top Area Alignment"
+msgstr ""
+
+#: inc/options.php:216
+msgid "Justified"
+msgstr ""
+
+#: inc/options.php:218
+msgid "Select content alignment in the top area of your website"
+msgstr ""
+
+#: inc/options.php:221
+msgid "Show Contacts"
+msgstr ""
+
+#: inc/options.php:225
+msgid ""
+"By activating this option your contact data will be displayed in top area of "
+"your website. You can edit your contact data in \"Contacts & Socials\" "
+"section of Theme Options"
+msgstr ""
+
+#: inc/options.php:228
+msgid "Show Socials"
+msgstr ""
+
+#: inc/options.php:232
+msgid ""
+"By activating this option the links to your social profiles will be "
+"displayed in top area of your website. You can edit your social profiles in "
+"\"Contacts & Socials\" section of Theme Options"
+msgstr ""
+
+#: inc/options.php:235
+msgid "Top Area Button Text"
+msgstr ""
+
+#: inc/options.php:238
+msgid ""
+"Here you can activate and name the button to be displayed in top area. Leave "
+"blank if you don't wish to use a button in top area."
+msgstr ""
+
+#: inc/options.php:241
+msgid "Top Area Button Link"
+msgstr ""
+
+#: inc/options.php:244
+msgid "Here you can enter the link for your top area button."
+msgstr ""
+
+#: inc/options.php:247
+msgid "Disable Fixed Top Area"
+msgstr ""
+
+#: inc/options.php:253
+msgid "Disable Top Area For Mobiles"
+msgstr ""
+
+#: inc/options.php:264
+msgid "Fonts"
+msgstr ""
+
+#: inc/options.php:267
+msgid "Main Menu Font"
+msgstr ""
+
+#: inc/options.php:270 inc/options.php:307 inc/options.php:344
+#: inc/options.php:381 inc/options.php:418 inc/options.php:455
+#: inc/options.php:492 inc/options.php:529 inc/options.php:566
+#: inc/options.php:603 inc/options.php:640 inc/options.php:661
+#: inc/options.php:698 inc/options.php:735 inc/options.php:756
+#: inc/options.php:777 inc/options.php:814 inc/options.php:851
+#: inc/options.php:888 inc/options.php:925 inc/options.php:962
+#: inc/options.php:999 inc/options.php:1036 inc/options.php:1073
+msgid "Font Family"
+msgstr ""
+
+#: inc/options.php:272 inc/options.php:309 inc/options.php:346
+#: inc/options.php:383 inc/options.php:420 inc/options.php:457
+#: inc/options.php:494 inc/options.php:531 inc/options.php:568
+#: inc/options.php:605 inc/options.php:642 inc/options.php:663
+#: inc/options.php:700 inc/options.php:737 inc/options.php:758
+#: inc/options.php:779 inc/options.php:816 inc/options.php:853
+#: inc/options.php:890 inc/options.php:927 inc/options.php:964
+#: inc/options.php:1001 inc/options.php:1038 inc/options.php:1075
+msgid ""
+"Select font family you would like to use. On the top of the fonts list "
+"you'll find web safe fonts"
+msgstr ""
+
+#: inc/options.php:275 inc/options.php:312 inc/options.php:349
+#: inc/options.php:386 inc/options.php:423 inc/options.php:460
+#: inc/options.php:497 inc/options.php:534 inc/options.php:571
+#: inc/options.php:608 inc/options.php:645 inc/options.php:666
+#: inc/options.php:703 inc/options.php:740 inc/options.php:761
+#: inc/options.php:782 inc/options.php:819 inc/options.php:856
+#: inc/options.php:893 inc/options.php:930 inc/options.php:967
+#: inc/options.php:1004 inc/options.php:1041 inc/options.php:1078
+msgid "Font Style"
+msgstr ""
+
+#: inc/options.php:277 inc/options.php:314 inc/options.php:351
+#: inc/options.php:388 inc/options.php:425 inc/options.php:462
+#: inc/options.php:499 inc/options.php:536 inc/options.php:573
+#: inc/options.php:610 inc/options.php:647 inc/options.php:668
+#: inc/options.php:705 inc/options.php:742 inc/options.php:763
+#: inc/options.php:784 inc/options.php:821 inc/options.php:858
+#: inc/options.php:895 inc/options.php:932 inc/options.php:969
+#: inc/options.php:1006 inc/options.php:1043 inc/options.php:1080
+msgid "Select font style for your font"
+msgstr ""
+
+#: inc/options.php:280 inc/options.php:317 inc/options.php:354
+#: inc/options.php:391 inc/options.php:428 inc/options.php:465
+#: inc/options.php:502 inc/options.php:539 inc/options.php:576
+#: inc/options.php:613 inc/options.php:650 inc/options.php:671
+#: inc/options.php:708 inc/options.php:745 inc/options.php:766
+#: inc/options.php:787 inc/options.php:824 inc/options.php:861
+#: inc/options.php:898 inc/options.php:935 inc/options.php:972
+#: inc/options.php:1009 inc/options.php:1046 inc/options.php:1083
+msgid "Font Sets"
+msgstr ""
+
+#: inc/options.php:282 inc/options.php:319 inc/options.php:356
+#: inc/options.php:393 inc/options.php:430 inc/options.php:467
+#: inc/options.php:504 inc/options.php:541 inc/options.php:578
+#: inc/options.php:615 inc/options.php:652 inc/options.php:673
+#: inc/options.php:710 inc/options.php:747 inc/options.php:768
+#: inc/options.php:789 inc/options.php:826 inc/options.php:863
+#: inc/options.php:900 inc/options.php:937 inc/options.php:974
+#: inc/options.php:1011 inc/options.php:1048 inc/options.php:1085
+msgid ""
+"Type in or load additional font sets which you would like to use with your "
+"chosen google font (latin-ext is loaded by default)"
+msgstr ""
+
+#: inc/options.php:286 inc/options.php:323 inc/options.php:360
+#: inc/options.php:397 inc/options.php:434 inc/options.php:471
+#: inc/options.php:508 inc/options.php:545 inc/options.php:582
+#: inc/options.php:619 inc/options.php:677 inc/options.php:714
+#: inc/options.php:793 inc/options.php:830 inc/options.php:867
+#: inc/options.php:904 inc/options.php:941 inc/options.php:978
+#: inc/options.php:1015 inc/options.php:1052 inc/options.php:1089
+msgid "Font Size"
+msgstr ""
+
+#: inc/options.php:287 inc/options.php:324 inc/options.php:361
+#: inc/options.php:398 inc/options.php:435 inc/options.php:472
+#: inc/options.php:509 inc/options.php:546 inc/options.php:583
+#: inc/options.php:620 inc/options.php:678 inc/options.php:715
+#: inc/options.php:794 inc/options.php:831 inc/options.php:868
+#: inc/options.php:905 inc/options.php:942 inc/options.php:979
+#: inc/options.php:1016 inc/options.php:1053 inc/options.php:1090
+msgid "Select the font size"
+msgstr ""
+
+#: inc/options.php:294 inc/options.php:331 inc/options.php:368
+#: inc/options.php:405 inc/options.php:442 inc/options.php:479
+#: inc/options.php:516 inc/options.php:553 inc/options.php:590
+#: inc/options.php:627 inc/options.php:685 inc/options.php:722
+#: inc/options.php:801 inc/options.php:838 inc/options.php:875
+#: inc/options.php:912 inc/options.php:949 inc/options.php:986
+#: inc/options.php:1023 inc/options.php:1060 inc/options.php:1097
+msgid "Line Height"
+msgstr ""
+
+#: inc/options.php:295 inc/options.php:332 inc/options.php:369
+#: inc/options.php:406 inc/options.php:443 inc/options.php:480
+#: inc/options.php:517 inc/options.php:554 inc/options.php:591
+#: inc/options.php:628 inc/options.php:686 inc/options.php:723
+#: inc/options.php:802 inc/options.php:839 inc/options.php:876
+#: inc/options.php:913 inc/options.php:950 inc/options.php:987
+#: inc/options.php:1024 inc/options.php:1061 inc/options.php:1098
+msgid "Select the line height"
+msgstr ""
+
+#: inc/options.php:304
+msgid "Submenu Font"
+msgstr ""
+
+#: inc/options.php:341
+msgid "Styled Subtitle Font"
+msgstr ""
+
+#: inc/options.php:378
+msgid "H1 Font"
+msgstr ""
+
+#: inc/options.php:415
+msgid "H2 Font"
+msgstr ""
+
+#: inc/options.php:452
+msgid "H3 Font"
+msgstr ""
+
+#: inc/options.php:489
+msgid "H4 Font"
+msgstr ""
+
+#: inc/options.php:526
+msgid "H5 Font"
+msgstr ""
+
+#: inc/options.php:563
+msgid "H6 Font"
+msgstr ""
+
+#: inc/options.php:600
+msgid "XLarge Title Font"
+msgstr ""
+
+#: inc/options.php:637
+msgid "Light Title Font"
+msgstr ""
+
+#: inc/options.php:658
+msgid "Body Font"
+msgstr ""
+
+#: inc/options.php:695
+msgid "Widget Title Font"
+msgstr ""
+
+#: inc/options.php:732
+msgid "Button Font"
+msgstr ""
+
+#: inc/options.php:753
+msgid "Button Thin Font"
+msgstr ""
+
+#: inc/options.php:774
+msgid "Portfolio Title Font"
+msgstr ""
+
+#: inc/options.php:811
+msgid "Portfolio Description Font"
+msgstr ""
+
+#: inc/options.php:848
+msgid "Gallery Title Font"
+msgstr ""
+
+#: inc/options.php:885
+msgid "Gallery Title Font (Bold Style)"
+msgstr ""
+
+#: inc/options.php:922
+msgid "Gallery Description Font"
+msgstr ""
+
+#: inc/options.php:959
+msgid "Testimonials Quoted Text"
+msgstr ""
+
+#: inc/options.php:996
+msgid "Counter Numbers"
+msgstr ""
+
+#: inc/options.php:1033
+msgid "NivoSlider Title Font"
+msgstr ""
+
+#: inc/options.php:1070
+msgid "NivoSlider Description Font"
+msgstr ""
+
+#: inc/options.php:1110
+msgid "Colors"
+msgstr ""
+
+#: inc/options.php:1113
+msgid "Background And Main Colors"
+msgstr ""
+
+#: inc/options.php:1116
+msgid "Background Color For Boxed Layout"
+msgstr ""
+
+#: inc/options.php:1118
+msgid "Select website's backround color in boxed layout"
+msgstr ""
+
+#: inc/options.php:1121 inc/options.php:1675
+msgid "Main Menu & Header Area Background"
+msgstr ""
+
+#: inc/options.php:1123
+msgid "Background color for the website's header area with main menu and logo"
+msgstr ""
+
+#: inc/options.php:1126
+msgid "Main Content Background Color"
+msgstr ""
+
+#: inc/options.php:1128
+msgid ""
+"Main background color for pages, blog posts, portfolio & shop items. It is "
+"also used as background for certain blog list styles, portfolio overviews, "
+"team items and tables. Additionally this color is used as text font color "
+"for text elements published on dark backgrounds, like footer on our demo "
+"website."
+msgstr ""
+
+#: inc/options.php:1131
+msgid "Footer Widgetised Area Background Color"
+msgstr ""
+
+#: inc/options.php:1133
+msgid "Background color for widgetised area in footer"
+msgstr ""
+
+#: inc/options.php:1136
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/options.php:1138
+msgid ""
+"Background color of the footer area with copyrights and socials at the "
+"bottom of the website."
+msgstr ""
+
+#: inc/options.php:1141
+msgid "Styled Element Background Color"
+msgstr ""
+
+#: inc/options.php:1143
+msgid ""
+"After the main content background color this is a second most important "
+"background color for the website. It is used as background for following "
+"widgets: submenu, diagrams, project info, recent posts & comments, "
+"testimonials & teams. Also it is used as item's background color in grid "
+"overviews of blog posts and portfolio items; in testimonial, team and tables "
+"shortcodes as well as in background of sticky posts."
+msgstr ""
+
+#: inc/options.php:1146
+msgid "Styled Element Color 1"
+msgstr ""
+
+#: inc/options.php:1148
+msgid ""
+"This color is used mainly as font text color of some widget elements, some "
+"elements like teams, testimonials, blog items. It is also used as background "
+"color for the label of sticky post in blogs"
+msgstr ""
+
+#: inc/options.php:1151
+msgid "Styled Element Color 2"
+msgstr ""
+
+#: inc/options.php:1153
+msgid "Background color for a few widget elements."
+msgstr ""
+
+#: inc/options.php:1156
+msgid "Styled Element Color 3"
+msgstr ""
+
+#: inc/options.php:1158
+msgid ""
+"This color is used for following elements: likes icon and markers in widget "
+"headings "
+msgstr ""
+
+#: inc/options.php:1161
+msgid "Divider Default Color"
+msgstr ""
+
+#: inc/options.php:1163
+msgid ""
+"Default color for dividers used in theme: content dividers, widget dividers, "
+"blog & news posts dividers etc."
+msgstr ""
+
+#: inc/options.php:1166
+msgid "Box Border & Sharing Icons In Blog Posts"
+msgstr ""
+
+#: inc/options.php:1168
+msgid ""
+"Color used as default border color in box elements in main content and "
+"sidebar widgets. Also this color is used as font color for social sharing "
+"icons in blog posts."
+msgstr ""
+
+#: inc/options.php:1173
+msgid "Menu Colors"
+msgstr ""
+
+#: inc/options.php:1176
+msgid "Level 1 Text Color"
+msgstr ""
+
+#: inc/options.php:1180
+msgid "Level 1 Background Color"
+msgstr ""
+
+#: inc/options.php:1184
+msgid "Level 1 Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1188
+msgid "Level 1 Hover Background Color"
+msgstr ""
+
+#: inc/options.php:1192
+msgid "Level 1 Active Text Color"
+msgstr ""
+
+#: inc/options.php:1196
+msgid "Level 1 Active Background Color"
+msgstr ""
+
+#: inc/options.php:1200
+msgid "Level 2 Text Color"
+msgstr ""
+
+#: inc/options.php:1204
+msgid "Level 2 Background Color"
+msgstr ""
+
+#: inc/options.php:1208
+msgid "Level 2 Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1212
+msgid "Level 2 Hover Background Color"
+msgstr ""
+
+#: inc/options.php:1216
+msgid "Level 2 Active Text Color"
+msgstr ""
+
+#: inc/options.php:1220
+msgid "Level 2 Active Background Color"
+msgstr ""
+
+#: inc/options.php:1224
+msgid "Mega Menu Column Titles Text Color"
+msgstr ""
+
+#: inc/options.php:1228
+msgid "Mega Menu Column Titles Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1232
+msgid "Mega Menu Column Titles Active Text Color"
+msgstr ""
+
+#: inc/options.php:1236
+msgid "Level 3+ Text Color"
+msgstr ""
+
+#: inc/options.php:1240
+msgid "Level 3+ Background Color"
+msgstr ""
+
+#: inc/options.php:1244
+msgid "Level 3+ Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1248
+msgid "Level 3+ Hover Background Color"
+msgstr ""
+
+#: inc/options.php:1252
+msgid "Level 3+ Active Text Color"
+msgstr ""
+
+#: inc/options.php:1256
+msgid "Level 3+ Active Background Color"
+msgstr ""
+
+#: inc/options.php:1260
+msgid "Level 1 Light Text Color"
+msgstr ""
+
+#: inc/options.php:1264
+msgid "Level 1 Hover Light Text Color"
+msgstr ""
+
+#: inc/options.php:1268
+msgid "Level 1 Active Light Text Color"
+msgstr ""
+
+#: inc/options.php:1272
+msgid "Level 2+ Border Color"
+msgstr ""
+
+#: inc/options.php:1276
+msgid "Mega Menu Icons Color"
+msgstr ""
+
+#: inc/options.php:1282
+msgid "Top Area Colors"
+msgstr ""
+
+#: inc/options.php:1285
+msgid "Top Area Background Color"
+msgstr ""
+
+#: inc/options.php:1287
+msgid ""
+"Background color for the selected style of top area (contacts & socials bar "
+"above main menu and logo). You can select from different top area styles in "
+"\"Header -> Top Area\""
+msgstr ""
+
+#: inc/options.php:1290
+msgid "Top Area Text Color"
+msgstr ""
+
+#: inc/options.php:1292
+msgid "Main font color for text used in top area"
+msgstr ""
+
+#: inc/options.php:1295
+msgid "Top Area Link Text Color"
+msgstr ""
+
+#: inc/options.php:1297
+msgid "Color of the links used in top area"
+msgstr ""
+
+#: inc/options.php:1300
+msgid "Top Area Link Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1302
+msgid "Color for links hovers used in top area"
+msgstr ""
+
+#: inc/options.php:1305
+msgid "Top Area Button Text Color"
+msgstr ""
+
+#: inc/options.php:1307
+msgid "Font color for the button in top area (if used)"
+msgstr ""
+
+#: inc/options.php:1310
+msgid "Top Area Button Background Color"
+msgstr ""
+
+#: inc/options.php:1312
+msgid "Background color for the button in top area (if used)"
+msgstr ""
+
+#: inc/options.php:1315
+msgid "Top Area Button Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1317
+msgid "Font hover color for the button in top area (if used)"
+msgstr ""
+
+#: inc/options.php:1320
+msgid "Top Area Button Hover Background Color"
+msgstr ""
+
+#: inc/options.php:1322
+msgid "Background hover color for the button in top area (if used)"
+msgstr ""
+
+#: inc/options.php:1327
+msgid "Text Colors"
+msgstr ""
+
+#: inc/options.php:1330
+msgid "Body Color"
+msgstr ""
+
+#: inc/options.php:1334
+msgid "H1 Color"
+msgstr ""
+
+#: inc/options.php:1338
+msgid "H2 Color"
+msgstr ""
+
+#: inc/options.php:1342
+msgid "H3 Color"
+msgstr ""
+
+#: inc/options.php:1346
+msgid "H4 Color"
+msgstr ""
+
+#: inc/options.php:1350
+msgid "H5 Color"
+msgstr ""
+
+#: inc/options.php:1354
+msgid "H6 Color"
+msgstr ""
+
+#: inc/options.php:1358
+msgid "Link Color"
+msgstr ""
+
+#: inc/options.php:1362
+msgid "Hover Link Color"
+msgstr ""
+
+#: inc/options.php:1366
+msgid "Active Link Color"
+msgstr ""
+
+#: inc/options.php:1370
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/options.php:1374
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/options.php:1378
+msgid "Copyright Link Color"
+msgstr ""
+
+#: inc/options.php:1382
+msgid "Title Bar Default Background"
+msgstr ""
+
+#: inc/options.php:1386
+msgid "Title Bar Default Font"
+msgstr ""
+
+#: inc/options.php:1390
+msgid "Date, Filter & Team Subtitle Color"
+msgstr ""
+
+#: inc/options.php:1394
+msgid "System Icons Font"
+msgstr ""
+
+#: inc/options.php:1398
+msgid "System Icons Font 2"
+msgstr ""
+
+#: inc/options.php:1404
+msgid "Button Colors"
+msgstr ""
+
+#: inc/options.php:1407
+msgid "Basic Text Color"
+msgstr ""
+
+#: inc/options.php:1409
+msgid ""
+"Font color for the text used in default flat buttons. Note: you can freely "
+"customise your buttons inside your content using \"Button\" shortcode in "
+"Visual Composer"
+msgstr ""
+
+#: inc/options.php:1412
+msgid "Hover Text Color"
+msgstr ""
+
+#: inc/options.php:1414
+msgid ""
+"Hover font color for the text used in default flat buttons. Note: you can "
+"freely customise your buttons inside your content using \"Button\" shortcode "
+"in Visual Composer"
+msgstr ""
+
+#: inc/options.php:1417
+msgid "Basic Background Color"
+msgstr ""
+
+#: inc/options.php:1419
+msgid ""
+"Background color for default flat buttons. Note: you can freely customise "
+"your buttons inside your content using \"Button\" shortcode in Visual "
+"Composer"
+msgstr ""
+
+#: inc/options.php:1422
+msgid "Hover Background Color"
+msgstr ""
+
+#: inc/options.php:1424
+msgid ""
+"Hover background color for default flat buttons. Note: you can freely "
+"customise your buttons inside your content using \"Button\" shortcode in "
+"Visual Composer"
+msgstr ""
+
+#: inc/options.php:1427
+msgid "Basic Outline Text Color"
+msgstr ""
+
+#: inc/options.php:1429
+msgid ""
+"Font color for the text used in default outlined buttons. Note: you can "
+"freely customise your buttons inside your content using \"Button\" shortcode "
+"in Visual Composer"
+msgstr ""
+
+#: inc/options.php:1432
+msgid "Hover Outline Text Color"
+msgstr ""
+
+#: inc/options.php:1434
+msgid ""
+"Hover font color for the text used in default outlined buttons. Note: you "
+"can freely customise your buttons inside your content using \"Button\" "
+"shortcode in Visual Composer"
+msgstr ""
+
+#: inc/options.php:1437
+msgid "Basic Outline Border Color"
+msgstr ""
+
+#: inc/options.php:1439
+msgid ""
+"Border color used in default outlined buttons. Note: you can freely "
+"customise your buttons inside your content using \"Button\" shortcode in "
+"Visual Composer"
+msgstr ""
+
+#: inc/options.php:1444
+msgid "Widgets Colors"
+msgstr ""
+
+#: inc/options.php:1447
+msgid "Widget Title Color"
+msgstr ""
+
+#: inc/options.php:1449
+msgid "Font color of widget titles used in sidebars"
+msgstr ""
+
+#: inc/options.php:1452
+msgid "Widget Link Color"
+msgstr ""
+
+#: inc/options.php:1454
+msgid "Font color of links in widgets used in sidebars"
+msgstr ""
+
+#: inc/options.php:1457
+msgid "Widget Hover Link Color"
+msgstr ""
+
+#: inc/options.php:1459
+msgid "Hover color for links used in sidebar widgets"
+msgstr ""
+
+#: inc/options.php:1462
+msgid "Widget Active Link Color"
+msgstr ""
+
+#: inc/options.php:1464
+msgid "Color for active links used in sidebar widgets"
+msgstr ""
+
+#: inc/options.php:1467
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: inc/options.php:1469
+msgid "Font color of widget titles used in footer widgetised area"
+msgstr ""
+
+#: inc/options.php:1472
+msgid "Footer Widget Text Color"
+msgstr ""
+
+#: inc/options.php:1474
+msgid "Font color of text used in widgets in footer widgetised area"
+msgstr ""
+
+#: inc/options.php:1477
+msgid "Footer Widget Link Color"
+msgstr ""
+
+#: inc/options.php:1479
+msgid "Font color of links in widgets used in footer widgetised area"
+msgstr ""
+
+#: inc/options.php:1482
+msgid "Footer Widget Hover Link Color"
+msgstr ""
+
+#: inc/options.php:1484
+msgid "Hover color for links used in widgets in footer widgetised area"
+msgstr ""
+
+#: inc/options.php:1487
+msgid "Footer Widget Active Link Color"
+msgstr ""
+
+#: inc/options.php:1489
+msgid "Color for active links used in widgets in footer widgetised area"
+msgstr ""
+
+#: inc/options.php:1494
+msgid "Portfolio Colors"
+msgstr ""
+
+#: inc/options.php:1497
+msgid "Portfolio Overview Title Text"
+msgstr ""
+
+#: inc/options.php:1499
+msgid "Select portfolio item's title color for grid-style portfolio overviews"
+msgstr ""
+
+#: inc/options.php:1502
+msgid "Portfolio Overview Description Text"
+msgstr ""
+
+#: inc/options.php:1504
+msgid ""
+"Choose portfolio item's description color for grid-style portfolio overviews"
+msgstr ""
+
+#: inc/options.php:1507
+msgid "Portfolio Date Color"
+msgstr ""
+
+#: inc/options.php:1509
+msgid "Font color for showing the date in portfolio overviews"
+msgstr ""
+
+#: inc/options.php:1514
+msgid "Slideshow, Gallery And Image Box Colors"
+msgstr ""
+
+#: inc/options.php:1517
+msgid "Gallery Lightbox Caption Background"
+msgstr ""
+
+#: inc/options.php:1519
+msgid ""
+"Select background color for image description in image lightbox (zoomed view)"
+msgstr ""
+
+#: inc/options.php:1522
+msgid "Gallery Lightbox Title Text"
+msgstr ""
+
+#: inc/options.php:1524
+msgid ""
+"Choose title color for image description in gallery in image lightbox "
+"(zoomed view)"
+msgstr ""
+
+#: inc/options.php:1527
+msgid "Gallery Lightbox Description Text"
+msgstr ""
+
+#: inc/options.php:1529
+msgid "Select text color for image description in image lightbox (zoomed view)"
+msgstr ""
+
+#: inc/options.php:1532
+msgid "Slideshow Arrow Background"
+msgstr ""
+
+#: inc/options.php:1534
+msgid ""
+"Background color for the arrows in Layerslider, Revolution & Nivo Slider "
+"slideshows"
+msgstr ""
+
+#: inc/options.php:1537
+msgid "Slideshow Arrow Hover Background"
+msgstr ""
+
+#: inc/options.php:1539
+msgid ""
+"Hover background color for the arrows in Layerslider, Revolution & Nivo "
+"Slider slideshows"
+msgstr ""
+
+#: inc/options.php:1542
+msgid "Slideshow Arrow Font"
+msgstr ""
+
+#: inc/options.php:1544
+msgid ""
+"Font color for the arrows in Layerslider, Revolution & Nivo Slider slideshows"
+msgstr ""
+
+#: inc/options.php:1547
+msgid "Sliders Arrow Font"
+msgstr ""
+
+#: inc/options.php:1549
+msgid ""
+"Font color for the arrows in content sliders (not in Layeslider, Revolution "
+"or Nivo Sliders)"
+msgstr ""
+
+#: inc/options.php:1552
+msgid "Sliders Arrow Background"
+msgstr ""
+
+#: inc/options.php:1554
+msgid ""
+"Backround color for the arrows in content sliders (not in Layeslider, "
+"Revolution or Nivo Sliders)"
+msgstr ""
+
+#: inc/options.php:1557
+msgid "Sliders Arrow Hover Font"
+msgstr ""
+
+#: inc/options.php:1559
+msgid ""
+"Hover font color for the arrows in content sliders (not in Layeslider, "
+"Revolution or Nivo Sliders)"
+msgstr ""
+
+#: inc/options.php:1562
+msgid "Sliders Arrow Hover Background"
+msgstr ""
+
+#: inc/options.php:1564
+msgid ""
+"Hover background color for the arrows in content sliders (not in Layeslider, "
+"Revolution or Nivo Sliders)"
+msgstr ""
+
+#: inc/options.php:1582
+msgid "Bullets, Icons, Dropcaps & Pagination"
+msgstr ""
+
+#: inc/options.php:1585
+msgid "Bullets Symbol"
+msgstr ""
+
+#: inc/options.php:1587
+msgid ""
+"This color is used in bullets in navigation & menu widgets as well as as "
+"font color for icons in contact widget"
+msgstr ""
+
+#: inc/options.php:1590
+msgid "Icons Font"
+msgstr ""
+
+#: inc/options.php:1592
+msgid ""
+"Default font color for icons. Note: using icons shortcodes in Visual "
+"Composer you can freely customise your icons as you wish"
+msgstr ""
+
+#: inc/options.php:1595
+msgid "Pagination Basic"
+msgstr ""
+
+#: inc/options.php:1597
+msgid "Font color for numbers in classic pagination"
+msgstr ""
+
+#: inc/options.php:1600
+msgid "Pagination Basic Background"
+msgstr ""
+
+#: inc/options.php:1602
+msgid "Background color for numbers in classic pagination"
+msgstr ""
+
+#: inc/options.php:1605
+msgid "Pagination Basic Border"
+msgstr ""
+
+#: inc/options.php:1607
+msgid "Border color for numbers in classic pagination"
+msgstr ""
+
+#: inc/options.php:1610
+msgid "Pagination Hover"
+msgstr ""
+
+#: inc/options.php:1612
+msgid "Hover color for classic pagination"
+msgstr ""
+
+#: inc/options.php:1615
+msgid "Pagination Active"
+msgstr ""
+
+#: inc/options.php:1617
+msgid "Active color  for classic pagination"
+msgstr ""
+
+#: inc/options.php:1620
+msgid "Slider Mini-Pagination (Not Active)"
+msgstr ""
+
+#: inc/options.php:1624
+msgid "Slider Mini-Pagination (Active)"
+msgstr ""
+
+#: inc/options.php:1630
+msgid "Form"
+msgstr ""
+
+#: inc/options.php:1633 inc/post-types/init.php:117
+msgid "Background"
+msgstr ""
+
+#: inc/options.php:1637
+msgid "Font"
+msgstr ""
+
+#: inc/options.php:1641
+msgid "Border"
+msgstr ""
+
+#: inc/options.php:1650
+msgid "Backgrounds"
+msgstr ""
+
+#: inc/options.php:1653
+msgid "Background Images"
+msgstr ""
+
+#: inc/options.php:1656
+msgid "Background for Boxed Layout"
+msgstr ""
+
+#: inc/options.php:1658
+msgid "Select or upload image file for website's backround in boxed layout"
+msgstr ""
+
+#: inc/options.php:1661
+msgid "Background Patterns for Boxed Layout"
+msgstr ""
+
+#: inc/options.php:1677
+msgid ""
+"Select or upload background image file for the website's header area with "
+"main menu and logo"
+msgstr ""
+
+#: inc/options.php:1680
+msgid "Top Area Background"
+msgstr ""
+
+#: inc/options.php:1682
+msgid ""
+"Select or upload background image file for the selected style of top area "
+"(contacts & socials bar above main menu and logo). You can select from "
+"different top area styles in \"Header -> Top Area\""
+msgstr ""
+
+#: inc/options.php:1685
+msgid "Main Content Background"
+msgstr ""
+
+#: inc/options.php:1687
+msgid "Select or upload image file for website's main content background"
+msgstr ""
+
+#: inc/options.php:1690
+msgid "Footer Background"
+msgstr ""
+
+#: inc/options.php:1692
+msgid ""
+"Select or upload background image file for the footer area with copyrights "
+"and socials at the bottom of the website."
+msgstr ""
+
+#: inc/options.php:1695
+msgid " Footer Widgetised Area Background Image"
+msgstr ""
+
+#: inc/options.php:1697
+msgid "Select or upload background image file for widgetised area in footer"
+msgstr ""
+
+#: inc/options.php:1705 inc/options.php:1708
+msgid "NivoSlider Options"
+msgstr ""
+
+#: inc/options.php:1711
+msgid "Effect"
+msgstr ""
+
+#: inc/options.php:1734
+msgid "Slices"
+msgstr ""
+
+#: inc/options.php:1741
+msgid "Box Cols"
+msgstr ""
+
+#: inc/options.php:1748
+msgid "Box Rows"
+msgstr ""
+
+#: inc/options.php:1755
+msgid "Animation Speed ( x 100 milliseconds )"
+msgstr ""
+
+#: inc/options.php:1762
+msgid "Pause Time ( x 1000 milliseconds )"
+msgstr ""
+
+#: inc/options.php:1769
+msgid "Direction Navigation"
+msgstr ""
+
+#: inc/options.php:1775
+msgid "Control Navigation"
+msgstr ""
+
+#: inc/options.php:1786
+msgid "Blog & News"
+msgstr ""
+
+#: inc/options.php:1789
+msgid "Blog & News Options"
+msgstr ""
+
+#: inc/options.php:1792
+msgid "Show author"
+msgstr ""
+
+#: inc/options.php:1798
+msgid "Excerpt lenght"
+msgstr ""
+
+#: inc/options.php:1810
+msgid "Footer"
+msgstr ""
+
+#: inc/options.php:1813
+msgid "Footer Options"
+msgstr ""
+
+#: inc/options.php:1816
+msgid "Activate footer"
+msgstr ""
+
+#: inc/options.php:1822
+msgid "Footer Text"
+msgstr ""
+
+#: inc/options.php:1831
+msgid "Contacts & Socials"
+msgstr ""
+
+#: inc/options.php:1834
+msgid "Contacts"
+msgstr ""
+
+#: inc/options.php:1837 inc/options.php:1867
+msgid "Address"
+msgstr ""
+
+#: inc/options.php:1842 inc/options.php:1872
+msgid "Phone"
+msgstr "Teléfono"
+
+#: inc/options.php:1847 inc/options.php:1877
+msgid "Fax"
+msgstr "Local"
+
+#: inc/options.php:1852 inc/options.php:1882
+msgid "Email"
+msgstr ""
+
+#: inc/options.php:1864
+msgid "Top Area Contacts"
+msgstr ""
+
+#: inc/options.php:1894
+msgid "Socials"
+msgstr ""
+
+#: inc/options.php:1897
+msgid "Activate Twitter Icon"
+msgstr ""
+
+#: inc/options.php:1903
+msgid "Activate Facebook Icon"
+msgstr ""
+
+#: inc/options.php:1909
+msgid "Activate LinkedIn Icon"
+msgstr ""
+
+#: inc/options.php:1915
+msgid "Activate Google Plus Icon"
+msgstr ""
+
+#: inc/options.php:1921
+msgid "Activate StumbleUpon Icon"
+msgstr ""
+
+#: inc/options.php:1926
+msgid "Activate RSS Icon"
+msgstr ""
+
+#: inc/options.php:1932
+msgid "Activate Vimeo Icon"
+msgstr ""
+
+#: inc/options.php:1938
+msgid "Activate Instagram Icon"
+msgstr ""
+
+#: inc/options.php:1944
+msgid "Activate Pinterest Icon"
+msgstr ""
+
+#: inc/options.php:1950
+msgid "Activate YouTube Icon"
+msgstr ""
+
+#: inc/options.php:1956
+msgid "Activate Flickr Icon"
+msgstr ""
+
+#: inc/options.php:1962
+msgid "Twitter Profile Link"
+msgstr ""
+
+#: inc/options.php:1965
+msgid "Enter URL to your twitter profile"
+msgstr ""
+
+#: inc/options.php:1968
+msgid "Facebook Profile Link"
+msgstr ""
+
+#: inc/options.php:1971
+msgid "Enter URL to your facebook profile"
+msgstr ""
+
+#: inc/options.php:1974
+msgid "LinkedIn Profile Link"
+msgstr ""
+
+#: inc/options.php:1977
+msgid "Enter URL to your linkedin profile"
+msgstr ""
+
+#: inc/options.php:1980
+msgid "Google Plus Profile Link"
+msgstr ""
+
+#: inc/options.php:1983
+msgid "Enter URL to your google+ profile"
+msgstr ""
+
+#: inc/options.php:1986
+msgid "StumbleUpon Profile Link"
+msgstr ""
+
+#: inc/options.php:1989
+msgid "Enter URL to your stumbleupon profile"
+msgstr ""
+
+#: inc/options.php:1992
+msgid "RSS Link"
+msgstr ""
+
+#: inc/options.php:1997
+msgid "Vimeo Link"
+msgstr ""
+
+#: inc/options.php:2002
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/options.php:2007
+msgid "Pinterest Link"
+msgstr ""
+
+#: inc/options.php:2012
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/options.php:2017
+msgid "Flickr Link"
+msgstr ""
+
+#: inc/options.php:2022
+msgid "Display Links For Sharing Posts On Social Networks"
+msgstr ""
+
+#: inc/options.php:2735
+msgid "Theme options"
+msgstr ""
+
+#: inc/options.php:2743
+msgctxt "Maven Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/options.php:2746
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/options.php:2771
+msgid "Get all from font."
+msgstr ""
+
+#: inc/options.php:2773
+msgid "et colors, backgrounds and fonts options to default?"
+msgstr ""
+
+#: inc/options.php:2774
+msgid "Update backup data?"
+msgstr ""
+
+#: inc/options.php:2775
+msgid "Restore settings from backup data?"
+msgstr ""
+
+#: inc/options.php:2776
+msgid "Import settings?"
+msgstr ""
+
+#: inc/options.php:2804 inc/options.php:2874
+msgid "Save Changes"
+msgstr ""
+
+#: inc/options.php:2813
+msgid "Backup"
+msgstr ""
+
+#: inc/options.php:2842
+msgid "Backup and Restore Theme Settings"
+msgstr ""
+
+#: inc/options.php:2845
+msgid ""
+"If you would like to experiment with the settings of your theme and don't "
+"want to loose your previous settings, use the \"Backup Settings\"-button to "
+"backup your current theme options. You can restore these options later using "
+"the button \"Restore Settings\"."
+msgstr ""
+
+#: inc/options.php:2847 inc/options.php:2849
+msgid "Last backup"
+msgstr ""
+
+#: inc/options.php:2849
+msgid "No backups yet"
+msgstr ""
+
+#: inc/options.php:2852
+msgid "Backup Settings"
+msgstr ""
+
+#: inc/options.php:2853
+msgid "Restore Settings"
+msgstr ""
+
+#: inc/options.php:2857
+msgid ""
+"In order to apply the settings of another ct theme used in a different "
+"install just copy and paste the settings in the text box and click on "
+"\"Import Settings\"."
+msgstr ""
+
+#: inc/options.php:2863
+msgid "Import Settings"
+msgstr ""
+
+#: inc/options.php:2874
+msgid "Reset Style Settings"
+msgstr ""
+
+#: inc/options.php:3016 inc/options.php:3028
+#, php-format
+msgid ""
+"CT's styles cannot be customized because file \"%s\" cannot be modified. "
+"Please check your server's settings. Then click \"Save Changes\" button."
+msgstr ""
+
+#: inc/post-types/init.php:21 inc/post-types/init.php:30
+msgid "Page Title"
+msgstr ""
+
+#: inc/post-types/init.php:22
+msgid "Page Header"
+msgstr ""
+
+#: inc/post-types/init.php:23 inc/post-types/init.php:31
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/post-types/init.php:25
+msgid "Page Slideshow"
+msgstr ""
+
+#: inc/post-types/init.php:27 inc/post-types/init.php:32
+msgid "Additional Options"
+msgstr ""
+
+#: inc/post-types/init.php:28
+msgid "Page Preloader"
+msgstr ""
+
+#: inc/post-types/init.php:33
+msgid "Size Guide"
+msgstr ""
+
+#: inc/post-types/init.php:34
+msgid "Blog Item Settings"
+msgstr ""
+
+#: inc/post-types/init.php:41 inc/post-types/init.php:43
+#: inc/post-types/init.php:304 inc/post-types/init.php:380
+#: inc/shortcodes.php:464 inc/shortcodes.php:1252 inc/shortcodes.php:2170
+msgid "None"
+msgstr ""
+
+#: inc/post-types/init.php:41 inc/post-types/init.php:398
+#: inc/shortcodes.php:465
+msgid "YouTube"
+msgstr ""
+
+#: inc/post-types/init.php:41 inc/post-types/init.php:398
+#: inc/shortcodes.php:466
+msgid "Vimeo"
+msgstr ""
+
+#: inc/post-types/init.php:41 inc/post-types/init.php:398
+msgid "Self-Hosted Video"
+msgstr ""
+
+#: inc/post-types/init.php:42
+msgid "Enable"
+msgstr ""
+
+#: inc/post-types/init.php:42
+msgid "Disable"
+msgstr ""
+
+#: inc/post-types/init.php:43
+msgid "45&deg; Left"
+msgstr ""
+
+#: inc/post-types/init.php:43
+msgid "45&deg; Right"
+msgstr ""
+
+#: inc/post-types/init.php:43
+msgid "90&deg;"
+msgstr ""
+
+#: inc/post-types/init.php:48
+msgid "Style &amp; Alignment"
+msgstr ""
+
+#: inc/post-types/init.php:51
+msgid "Enable Page Title"
+msgstr ""
+
+#: inc/post-types/init.php:54
+msgid "Alignment"
+msgstr ""
+
+#: inc/post-types/init.php:55 inc/shortcodes.php:405 inc/shortcodes.php:416
+#: inc/shortcodes.php:690 inc/shortcodes.php:701 inc/shortcodes.php:1167
+msgid "Center"
+msgstr ""
+
+#: inc/post-types/init.php:58
+msgid "Padding Top"
+msgstr ""
+
+#: inc/post-types/init.php:61
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/post-types/init.php:66
+msgid "Rich Content Title"
+msgstr ""
+
+#: inc/post-types/init.php:70
+msgid "Use rich content title"
+msgstr ""
+
+#: inc/post-types/init.php:85
+msgid "Title &amp; Excerpt"
+msgstr ""
+
+#: inc/post-types/init.php:88
+msgid "Title Text Color"
+msgstr ""
+
+#: inc/post-types/init.php:92
+msgid "Hide Excerpt"
+msgstr ""
+
+#: inc/post-types/init.php:94
+msgid "Excerpt Color"
+msgstr ""
+
+#: inc/post-types/init.php:97
+msgid "Excerpt"
+msgstr ""
+
+#: inc/post-types/init.php:102
+msgid "Title Max Width"
+msgstr ""
+
+#: inc/post-types/init.php:105
+msgid "Excerpt Max Width"
+msgstr ""
+
+#: inc/post-types/init.php:108
+msgid "Title Top Margin"
+msgstr ""
+
+#: inc/post-types/init.php:111
+msgid "Excerpt Top Margin"
+msgstr ""
+
+#: inc/post-types/init.php:120 inc/shortcodes.php:670
+msgid "Background Image"
+msgstr ""
+
+#: inc/post-types/init.php:128 inc/post-types/init.php:435
+#: inc/shortcodes.php:380 inc/shortcodes.php:664
+msgid "Background Color"
+msgstr ""
+
+#: inc/post-types/init.php:138
+msgid "Icon Pack"
+msgstr ""
+
+#: inc/post-types/init.php:152 inc/shortcodes.php:613
+msgid "Icon Color"
+msgstr ""
+
+#: inc/post-types/init.php:155 inc/shortcodes.php:623
+msgid "Icon Color 2"
+msgstr ""
+
+#: inc/post-types/init.php:158 inc/shortcodes.php:603
+msgid "Icon Style"
+msgstr ""
+
+#: inc/post-types/init.php:162 inc/shortcodes.php:633
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/post-types/init.php:165 inc/shortcodes.php:643
+msgid "Icon Border Color"
+msgstr ""
+
+#: inc/post-types/init.php:168 inc/shortcodes.php:597
+msgid "Icon Shape"
+msgstr ""
+
+#: inc/post-types/init.php:169 inc/shortcodes.php:599
+msgid "Circle"
+msgstr ""
+
+#: inc/post-types/init.php:169 inc/shortcodes.php:599 inc/shortcodes.php:1254
+#: inc/shortcodes.php:2172
+msgid "Square"
+msgstr ""
+
+#: inc/post-types/init.php:169 inc/shortcodes.php:599
+msgid "Rhombus"
+msgstr ""
+
+#: inc/post-types/init.php:169 inc/shortcodes.php:599
+msgid "Hexagon"
+msgstr ""
+
+#: inc/post-types/init.php:171 inc/shortcodes.php:653
+msgid "Icon Size"
+msgstr ""
+
+#: inc/post-types/init.php:172 inc/shortcodes.php:655 inc/shortcodes.php:784
+#: inc/shortcodes.php:968 inc/shortcodes.php:1179 inc/shortcodes.php:1636
+#: inc/shortcodes.php:1992 inc/shortcodes.php:2279
+msgid "Small"
+msgstr ""
+
+#: inc/post-types/init.php:172 inc/shortcodes.php:655 inc/shortcodes.php:784
+#: inc/shortcodes.php:968 inc/shortcodes.php:1179 inc/shortcodes.php:1636
+#: inc/shortcodes.php:1992
+msgid "Medium"
+msgstr ""
+
+#: inc/post-types/init.php:172 inc/shortcodes.php:655 inc/shortcodes.php:784
+#: inc/shortcodes.php:968 inc/shortcodes.php:1179 inc/shortcodes.php:1636
+#: inc/shortcodes.php:1992
+msgid "Large"
+msgstr ""
+
+#: inc/post-types/init.php:172 inc/shortcodes.php:655
+msgid "Extra Large"
+msgstr ""
+
+#: inc/post-types/init.php:178
+msgid "Video Background"
+msgstr ""
+
+#: inc/post-types/init.php:181
+msgid "Video Background Type"
+msgstr ""
+
+#: inc/post-types/init.php:184 inc/post-types/init.php:417
+msgid "Link to video or video ID (for YouTube or Vimeo)"
+msgstr ""
+
+#: inc/post-types/init.php:187 inc/post-types/init.php:420
+msgid "Video Background Aspect Ratio (16:9, 16:10, 4:3...)"
+msgstr ""
+
+#: inc/post-types/init.php:191
+msgid "Video Overlay Color"
+msgstr ""
+
+#: inc/post-types/init.php:194
+msgid "Video Overlay Opacity (0 - 1)"
+msgstr ""
+
+#: inc/post-types/init.php:197 inc/shortcodes.php:494
+msgid "Video Poster"
+msgstr ""
+
+#: inc/post-types/init.php:238
+msgid "Transparent Menu On Header"
+msgstr ""
+
+#: inc/post-types/init.php:239
+msgid "Header Opacity (0-100%)"
+msgstr ""
+
+#: inc/post-types/init.php:242
+msgid "Use Light Menu &amp; Logo"
+msgstr ""
+
+#: inc/post-types/init.php:245
+msgid "Hide Top Area"
+msgstr ""
+
+#: inc/post-types/init.php:263
+msgid "Page as One-Pager"
+msgstr ""
+
+#: inc/post-types/init.php:266
+msgid "Parallax Footer"
+msgstr ""
+
+#: inc/post-types/init.php:270
+msgid "Disable top margin"
+msgstr ""
+
+#: inc/post-types/init.php:272
+msgid "Disable bottom margin"
+msgstr ""
+
+#: inc/post-types/init.php:276
+msgid "Lazy loading disabled"
+msgstr ""
+
+#: inc/post-types/init.php:278
+msgid "Redirect to subpage"
+msgstr ""
+
+#: inc/post-types/init.php:282
+msgid "Hide Header"
+msgstr ""
+
+#: inc/post-types/init.php:284
+msgid "Hide Footer"
+msgstr ""
+
+#: inc/post-types/init.php:306
+msgid "All Slides"
+msgstr ""
+
+#: inc/post-types/init.php:332
+msgid "Slideshow Type"
+msgstr ""
+
+#: inc/post-types/init.php:336
+msgid "Select Slideshow"
+msgstr ""
+
+#: inc/post-types/init.php:341
+msgid "Select LayerSlider"
+msgstr ""
+
+#: inc/post-types/init.php:347
+msgid "Select Revolution Slider"
+msgstr ""
+
+#: inc/post-types/init.php:384
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/post-types/init.php:389
+msgid "Sticky sidebar"
+msgstr ""
+
+#: inc/post-types/init.php:402
+msgid "Featured Image"
+msgstr ""
+
+#: inc/post-types/init.php:406
+msgid "Show Featured Content"
+msgstr ""
+
+#: inc/post-types/init.php:411
+msgid "For Video Post"
+msgstr ""
+
+#: inc/post-types/init.php:414
+msgid "Video Type"
+msgstr ""
+
+#: inc/post-types/init.php:426
+msgid "For Quote Post"
+msgstr ""
+
+#: inc/post-types/init.php:429
+msgid "Quote Text"
+msgstr ""
+
+#: inc/post-types/init.php:432
+msgid "Quote Author"
+msgstr ""
+
+#: inc/post-types/init.php:438
+msgid "Author &amp; Link Color"
+msgstr ""
+
+#: inc/post-types/init.php:444
+msgid "For Audio Post"
+msgstr ""
+
+#: inc/post-types/init.php:447
+msgid "Audio"
+msgstr ""
+
+#: inc/post-types/init.php:454
+msgid "For Gallery Post"
+msgstr ""
+
+#: inc/post-types/init.php:457 inc/shortcodes.php:1334
+msgid "Gallery"
+msgstr ""
+
+#: inc/post-types/init.php:460
+msgid "Autoscroll (msec)"
+msgstr ""
+
+#: inc/post-types/init.php:760
+msgid "Disable size guide"
+msgstr ""
+
+#: inc/post-types/init.php:762
+msgid "Use custom size guide"
+msgstr ""
+
+#: inc/post-types/init.php:763
+msgid "Size guide custom image"
+msgstr ""
+
+#: inc/shortcodes.php:314
+msgid "Width"
+msgstr ""
+
+#: inc/shortcodes.php:319
+msgid "Height"
+msgstr ""
+
+#: inc/shortcodes.php:324
+msgid "Src"
+msgstr ""
+
+#: inc/shortcodes.php:329
+msgid "Alt text"
+msgstr ""
+
+#: inc/shortcodes.php:334 inc/shortcodes.php:1436
+msgid "Border Style"
+msgstr ""
+
+#: inc/shortcodes.php:337 inc/shortcodes.php:1439
+msgid "no border"
+msgstr ""
+
+#: inc/shortcodes.php:338 inc/shortcodes.php:1440
+msgid "1px & border"
+msgstr ""
+
+#: inc/shortcodes.php:339 inc/shortcodes.php:1441
+msgid "16px & border"
+msgstr ""
+
+#: inc/shortcodes.php:340 inc/shortcodes.php:1442
+msgid "8px outlined border"
+msgstr ""
+
+#: inc/shortcodes.php:341 inc/shortcodes.php:1443
+msgid "20px outlined border"
+msgstr ""
+
+#: inc/shortcodes.php:342 inc/shortcodes.php:1444
+msgid "20px border with shadow"
+msgstr ""
+
+#: inc/shortcodes.php:343 inc/shortcodes.php:1445
+msgid "With shadow"
+msgstr ""
+
+#: inc/shortcodes.php:344 inc/shortcodes.php:1446
+msgid "20px border radius"
+msgstr ""
+
+#: inc/shortcodes.php:345 inc/shortcodes.php:1447
+msgid "55px border radius"
+msgstr ""
+
+#: inc/shortcodes.php:346 inc/shortcodes.php:1448
+msgid "Solid inside"
+msgstr ""
+
+#: inc/shortcodes.php:347 inc/shortcodes.php:1449
+msgid "Dashed outside"
+msgstr ""
+
+#: inc/shortcodes.php:348 inc/shortcodes.php:1450
+msgid "Rounded with border"
+msgstr ""
+
+#: inc/shortcodes.php:353 inc/shortcodes.php:1165
+msgid "Position"
+msgstr ""
+
+#: inc/shortcodes.php:355
+msgid "below"
+msgstr ""
+
+#: inc/shortcodes.php:355
+msgid "centered"
+msgstr ""
+
+#: inc/shortcodes.php:355
+msgid "left"
+msgstr ""
+
+#: inc/shortcodes.php:355
+msgid "right"
+msgstr ""
+
+#: inc/shortcodes.php:359
+msgid "Disable lightbox"
+msgstr ""
+
+#: inc/shortcodes.php:361 inc/shortcodes.php:367 inc/shortcodes.php:424
+#: inc/shortcodes.php:430 inc/shortcodes.php:525 inc/shortcodes.php:929
+#: inc/shortcodes.php:1145 inc/shortcodes.php:1325 inc/shortcodes.php:1360
+#: inc/shortcodes.php:1370 inc/shortcodes.php:1519 inc/shortcodes.php:1602
+#: inc/shortcodes.php:1608 inc/shortcodes.php:1799 inc/shortcodes.php:1840
+#: inc/shortcodes.php:1932 inc/shortcodes.php:1938 inc/shortcodes.php:1944
+#: inc/shortcodes.php:1955 inc/shortcodes.php:2255 inc/shortcodes.php:2261
+#: inc/shortcodes.php:2267 inc/shortcodes.php:2273
+msgid "Yes"
+msgstr ""
+
+#: inc/shortcodes.php:365 inc/shortcodes.php:1323 inc/shortcodes.php:1797
+#: inc/shortcodes.php:1838 inc/shortcodes.php:2265
+msgid "Lazy loading enabled"
+msgstr ""
+
+#: inc/shortcodes.php:375
+msgid "Color"
+msgstr ""
+
+#: inc/shortcodes.php:390 inc/shortcodes.php:675
+msgid "Background style"
+msgstr ""
+
+#: inc/shortcodes.php:394 inc/shortcodes.php:679
+msgid "Cover"
+msgstr ""
+
+#: inc/shortcodes.php:395 inc/shortcodes.php:680
+msgid "Contain"
+msgstr ""
+
+#: inc/shortcodes.php:396 inc/shortcodes.php:681
+msgid "No Repeat"
+msgstr ""
+
+#: inc/shortcodes.php:397 inc/shortcodes.php:682
+msgid "Repeat"
+msgstr ""
+
+#: inc/shortcodes.php:402 inc/shortcodes.php:687
+msgid "Background horizontal position"
+msgstr ""
+
+#: inc/shortcodes.php:412 inc/shortcodes.php:697
+msgid "Background vertical position"
+msgstr ""
+
+#: inc/shortcodes.php:422
+msgid "Parallax"
+msgstr ""
+
+#: inc/shortcodes.php:428
+msgid "Enable Parallax on Mobiles"
+msgstr ""
+
+#: inc/shortcodes.php:438
+msgid "Parallax type"
+msgstr ""
+
+#: inc/shortcodes.php:441
+msgid "Vertical"
+msgstr ""
+
+#: inc/shortcodes.php:443
+msgid "Fixed"
+msgstr ""
+
+#: inc/shortcodes.php:452
+msgid "Parallax overlay color"
+msgstr ""
+
+#: inc/shortcodes.php:461
+msgid "Background video type"
+msgstr ""
+
+#: inc/shortcodes.php:467
+msgid "Self"
+msgstr ""
+
+#: inc/shortcodes.php:472
+msgid "Video id (YouTube or Vimeo) or src"
+msgstr ""
+
+#: inc/shortcodes.php:478
+msgid "Video Aspect ratio (16:9, 16:10, 4:3...)"
+msgstr ""
+
+#: inc/shortcodes.php:484
+msgid "Background video overlay color"
+msgstr ""
+
+#: inc/shortcodes.php:489
+msgid "Background video overlay opacity (0 - 1)"
+msgstr ""
+
+#: inc/shortcodes.php:503
+msgid "Padding top"
+msgstr ""
+
+#: inc/shortcodes.php:508
+msgid "Padding bottom"
+msgstr ""
+
+#: inc/shortcodes.php:513
+msgid "Padding left"
+msgstr ""
+
+#: inc/shortcodes.php:518
+msgid "Padding right"
+msgstr ""
+
+#: inc/shortcodes.php:523
+msgid "Container"
+msgstr ""
+
+#: inc/shortcodes.php:529
+msgid "Z-Index"
+msgstr ""
+
+#: inc/shortcodes.php:538 inc/shortcodes.php:864 inc/shortcodes.php:1072
+#: inc/shortcodes.php:1266 inc/shortcodes.php:1742 inc/shortcodes.php:2097
+msgid "Icon pack"
+msgstr ""
+
+#: inc/shortcodes.php:540 inc/shortcodes.php:588
+msgid "Image"
+msgstr ""
+
+#: inc/shortcodes.php:605
+msgid "45 degree Right"
+msgstr ""
+
+#: inc/shortcodes.php:605
+msgid "45 degree Left"
+msgstr ""
+
+#: inc/shortcodes.php:605
+msgid "90 degree"
+msgstr ""
+
+#: inc/shortcodes.php:659
+msgid "Text Color"
+msgstr ""
+
+#: inc/shortcodes.php:707
+msgid "Border Color"
+msgstr ""
+
+#: inc/shortcodes.php:712
+msgid "Border Width (px)"
+msgstr ""
+
+#: inc/shortcodes.php:717
+msgid "Border Radius (px)"
+msgstr ""
+
+#: inc/shortcodes.php:722
+msgid "Rectangle Corner"
+msgstr ""
+
+#: inc/shortcodes.php:737 inc/shortcodes.php:751
+msgid "Flag"
+msgstr ""
+
+#: inc/shortcodes.php:738 inc/shortcodes.php:752
+msgid "Shield"
+msgstr ""
+
+#: inc/shortcodes.php:739 inc/shortcodes.php:753
+msgid "Ticket"
+msgstr ""
+
+#: inc/shortcodes.php:740 inc/shortcodes.php:754
+msgid "Sentence"
+msgstr ""
+
+#: inc/shortcodes.php:741 inc/shortcodes.php:755
+msgid "Note 1"
+msgstr ""
+
+#: inc/shortcodes.php:742 inc/shortcodes.php:756
+msgid "Note 2"
+msgstr ""
+
+#: inc/shortcodes.php:747
+msgid "Bottom Area Style"
+msgstr ""
+
+#: inc/shortcodes.php:762 inc/shortcodes.php:934 inc/shortcodes.php:1154
+#: inc/shortcodes.php:1612 inc/shortcodes.php:1968
+msgid "Button Text"
+msgstr ""
+
+#: inc/shortcodes.php:764 inc/shortcodes.php:771 inc/shortcodes.php:778
+#: inc/shortcodes.php:786 inc/shortcodes.php:793 inc/shortcodes.php:800
+#: inc/shortcodes.php:812 inc/shortcodes.php:818 inc/shortcodes.php:824
+#: inc/shortcodes.php:834 inc/shortcodes.php:840 inc/shortcodes.php:850
+#: inc/shortcodes.php:860 inc/shortcodes.php:868 inc/shortcodes.php:879
+#: inc/shortcodes.php:890 inc/shortcodes.php:901 inc/shortcodes.php:922
+msgid "Button 1"
+msgstr ""
+
+#: inc/shortcodes.php:768 inc/shortcodes.php:944 inc/shortcodes.php:1159
+msgid "URL (Link)"
+msgstr ""
+
+#: inc/shortcodes.php:770 inc/shortcodes.php:946 inc/shortcodes.php:1161
+msgid "Add link to button."
+msgstr ""
+
+#: inc/shortcodes.php:775 inc/shortcodes.php:955 inc/shortcodes.php:1171
+#: inc/shortcodes.php:1398 inc/shortcodes.php:1527 inc/shortcodes.php:1552
+#: inc/shortcodes.php:1623 inc/shortcodes.php:1873 inc/shortcodes.php:1979
+#: inc/shortcodes.php:2291 inc/shortcodes.php:2305 inc/shortcodes.php:2317
+msgid "Style"
+msgstr ""
+
+#: inc/shortcodes.php:777 inc/shortcodes.php:957 inc/shortcodes.php:1173
+#: inc/shortcodes.php:1625 inc/shortcodes.php:1981
+msgid "Flat"
+msgstr ""
+
+#: inc/shortcodes.php:777 inc/shortcodes.php:957 inc/shortcodes.php:1173
+#: inc/shortcodes.php:1625 inc/shortcodes.php:1981
+msgid "Outline"
+msgstr ""
+
+#: inc/shortcodes.php:782 inc/shortcodes.php:966 inc/shortcodes.php:1177
+#: inc/shortcodes.php:1634 inc/shortcodes.php:1990
+msgid "Size"
+msgstr ""
+
+#: inc/shortcodes.php:784 inc/shortcodes.php:968 inc/shortcodes.php:1179
+#: inc/shortcodes.php:1636 inc/shortcodes.php:1992
+msgid "Tiny"
+msgstr ""
+
+#: inc/shortcodes.php:784 inc/shortcodes.php:968 inc/shortcodes.php:1179
+#: inc/shortcodes.php:1636 inc/shortcodes.php:1992
+msgid "Giant"
+msgstr ""
+
+#: inc/shortcodes.php:790 inc/shortcodes.php:978 inc/shortcodes.php:1184
+#: inc/shortcodes.php:1646 inc/shortcodes.php:2002
+msgid "Text weight"
+msgstr ""
+
+#: inc/shortcodes.php:792 inc/shortcodes.php:980 inc/shortcodes.php:1186
+#: inc/shortcodes.php:1581 inc/shortcodes.php:1648 inc/shortcodes.php:1913
+#: inc/shortcodes.php:2004
+msgid "Normal"
+msgstr ""
+
+#: inc/shortcodes.php:792 inc/shortcodes.php:980 inc/shortcodes.php:1186
+#: inc/shortcodes.php:1648 inc/shortcodes.php:2004
+msgid "Thin"
+msgstr ""
+
+#: inc/shortcodes.php:797 inc/shortcodes.php:989 inc/shortcodes.php:1190
+#: inc/shortcodes.php:1658 inc/shortcodes.php:2013
+msgid "Border radius"
+msgstr ""
+
+#: inc/shortcodes.php:804 inc/shortcodes.php:1000 inc/shortcodes.php:1196
+#: inc/shortcodes.php:1669 inc/shortcodes.php:2024
+msgid "Border width"
+msgstr ""
+
+#: inc/shortcodes.php:816 inc/shortcodes.php:1012 inc/shortcodes.php:1207
+#: inc/shortcodes.php:1681 inc/shortcodes.php:2036
+msgid "Text color"
+msgstr ""
+
+#: inc/shortcodes.php:822 inc/shortcodes.php:1022 inc/shortcodes.php:1212
+#: inc/shortcodes.php:1691 inc/shortcodes.php:2046
+msgid "Hover text color"
+msgstr ""
+
+#: inc/shortcodes.php:828 inc/shortcodes.php:1032 inc/shortcodes.php:1217
+#: inc/shortcodes.php:1701 inc/shortcodes.php:2056
+msgid "Background color"
+msgstr ""
+
+#: inc/shortcodes.php:838 inc/shortcodes.php:1042 inc/shortcodes.php:1226
+#: inc/shortcodes.php:1712 inc/shortcodes.php:2067
+msgid "Hover background color"
+msgstr ""
+
+#: inc/shortcodes.php:844 inc/shortcodes.php:1052 inc/shortcodes.php:1231
+#: inc/shortcodes.php:1722 inc/shortcodes.php:2077
+msgid "Border color"
+msgstr ""
+
+#: inc/shortcodes.php:854 inc/shortcodes.php:1062 inc/shortcodes.php:1240
+#: inc/shortcodes.php:1732 inc/shortcodes.php:2087
+msgid "Hover border color"
+msgstr ""
+
+#: inc/shortcodes.php:919 inc/shortcodes.php:1131 inc/shortcodes.php:1317
+#: inc/shortcodes.php:2156
+msgid "Icon position"
+msgstr ""
+
+#: inc/shortcodes.php:927
+msgid "Activate Button"
+msgstr ""
+
+#: inc/shortcodes.php:930 inc/shortcodes.php:936 inc/shortcodes.php:951
+#: inc/shortcodes.php:962 inc/shortcodes.php:974 inc/shortcodes.php:985
+#: inc/shortcodes.php:996 inc/shortcodes.php:1008 inc/shortcodes.php:1018
+#: inc/shortcodes.php:1028 inc/shortcodes.php:1038 inc/shortcodes.php:1048
+#: inc/shortcodes.php:1058 inc/shortcodes.php:1068 inc/shortcodes.php:1080
+#: inc/shortcodes.php:1091 inc/shortcodes.php:1102 inc/shortcodes.php:1113
+#: inc/shortcodes.php:1138
+msgid "Button 2"
+msgstr ""
+
+#: inc/shortcodes.php:1167
+msgid "Inline"
+msgstr ""
+
+#: inc/shortcodes.php:1167 inc/shortcodes.php:1517 inc/shortcodes.php:1865
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/shortcodes.php:1249 inc/shortcodes.php:2167
+msgid "Separatot Style"
+msgstr ""
+
+#: inc/shortcodes.php:1253 inc/shortcodes.php:2171
+msgid "Single"
+msgstr ""
+
+#: inc/shortcodes.php:1255 inc/shortcodes.php:2173
+msgid "Soft Double"
+msgstr ""
+
+#: inc/shortcodes.php:1256 inc/shortcodes.php:2174
+msgid "Strong Double"
+msgstr ""
+
+#: inc/shortcodes.php:1261
+msgid "Extra class name"
+msgstr ""
+
+#: inc/shortcodes.php:1341
+msgid "Gallery Type"
+msgstr ""
+
+#: inc/shortcodes.php:1343
+msgid "Choose gallery type"
+msgstr ""
+
+#: inc/shortcodes.php:1344 inc/shortcodes.php:1493
+msgid "Slider"
+msgstr ""
+
+#: inc/shortcodes.php:1344 inc/shortcodes.php:1494
+msgid "Grid"
+msgstr ""
+
+#: inc/shortcodes.php:1348 inc/shortcodes.php:1387 inc/shortcodes.php:1490
+#: inc/shortcodes.php:1847 inc/shortcodes.php:2212
+msgid "Layout"
+msgstr ""
+
+#: inc/shortcodes.php:1350
+msgid "fullwidth"
+msgstr ""
+
+#: inc/shortcodes.php:1350
+msgid "Sidebar"
+msgstr ""
+
+#: inc/shortcodes.php:1358
+msgid "Disable thumbnails bar"
+msgstr ""
+
+#: inc/shortcodes.php:1368 inc/shortcodes.php:1578 inc/shortcodes.php:1911
+msgid "Pagination"
+msgstr ""
+
+#: inc/shortcodes.php:1378 inc/shortcodes.php:1540 inc/shortcodes.php:2283
+msgid "Autoscroll"
+msgstr ""
+
+#: inc/shortcodes.php:1389
+msgid "Choose gallery layout"
+msgstr ""
+
+#: inc/shortcodes.php:1390 inc/shortcodes.php:1849
+msgid "2x columns"
+msgstr ""
+
+#: inc/shortcodes.php:1390 inc/shortcodes.php:1849 inc/shortcodes.php:2214
+msgid "3x columns"
+msgstr ""
+
+#: inc/shortcodes.php:1390 inc/shortcodes.php:1849
+msgid "4x columns"
+msgstr ""
+
+#: inc/shortcodes.php:1390 inc/shortcodes.php:1849 inc/shortcodes.php:2214
+msgid "100% width"
+msgstr ""
+
+#: inc/shortcodes.php:1400
+msgid "Choose gallery style"
+msgstr ""
+
+#: inc/shortcodes.php:1401 inc/shortcodes.php:1875
+msgid "Justified Grid"
+msgstr ""
+
+#: inc/shortcodes.php:1401
+msgid "Masonry Grid"
+msgstr ""
+
+#: inc/shortcodes.php:1401 inc/shortcodes.php:1875
+msgid "Metro Style"
+msgstr ""
+
+#: inc/shortcodes.php:1409 inc/shortcodes.php:1883 inc/shortcodes.php:2218
+msgid "Columns 100% Width (1920x Screen)"
+msgstr ""
+
+#: inc/shortcodes.php:1411 inc/shortcodes.php:1885 inc/shortcodes.php:2220
+msgid "4 Columns"
+msgstr ""
+
+#: inc/shortcodes.php:1411 inc/shortcodes.php:1885 inc/shortcodes.php:2220
+msgid "5 Columns"
+msgstr ""
+
+#: inc/shortcodes.php:1419
+msgid "Gaps size (px)"
+msgstr ""
+
+#: inc/shortcodes.php:1430 inc/shortcodes.php:1905 inc/shortcodes.php:2237
+msgid "Hover Type"
+msgstr ""
+
+#: inc/shortcodes.php:1432 inc/shortcodes.php:1907 inc/shortcodes.php:2239
+#: inc/shortcodes.php:2245
+msgid "Grey"
+msgstr ""
+
+#: inc/shortcodes.php:1432 inc/shortcodes.php:1907 inc/shortcodes.php:2239
+msgid "Zooming White"
+msgstr ""
+
+#: inc/shortcodes.php:1432 inc/shortcodes.php:1907 inc/shortcodes.php:2239
+msgid "Yellow"
+msgstr ""
+
+#: inc/shortcodes.php:1459 inc/shortcodes.php:1948 inc/shortcodes.php:2199
+msgid "Title"
+msgstr ""
+
+#: inc/shortcodes.php:1468 inc/shortcodes.php:1589 inc/shortcodes.php:1917
+msgid "Loading animation"
+msgstr ""
+
+#: inc/shortcodes.php:1471 inc/shortcodes.php:1592 inc/shortcodes.php:1920
+msgid "Bounce"
+msgstr ""
+
+#: inc/shortcodes.php:1471 inc/shortcodes.php:1592 inc/shortcodes.php:1920
+msgid "Move Up"
+msgstr ""
+
+#: inc/shortcodes.php:1471 inc/shortcodes.php:1592 inc/shortcodes.php:1920
+msgid "Fade In"
+msgstr ""
+
+#: inc/shortcodes.php:1471 inc/shortcodes.php:1592 inc/shortcodes.php:1920
+msgid "Fall Perspective"
+msgstr ""
+
+#: inc/shortcodes.php:1471 inc/shortcodes.php:1592 inc/shortcodes.php:1920
+msgid "Scale"
+msgstr ""
+
+#: inc/shortcodes.php:1471 inc/shortcodes.php:1592 inc/shortcodes.php:1920
+msgid "Flip"
+msgstr ""
+
+#: inc/shortcodes.php:1479 inc/shortcodes.php:2186
+msgid "Max. row's height in grid (px)"
+msgstr ""
+
+#: inc/shortcodes.php:1499 inc/shortcodes.php:1790 inc/shortcodes.php:2338
+msgid "Columns"
+msgstr ""
+
+#: inc/shortcodes.php:1509
+msgid "Testimonials Sets"
+msgstr ""
+
+#: inc/shortcodes.php:1512
+msgid "Select Testimonials Sets"
+msgstr ""
+
+#: inc/shortcodes.php:1530 inc/shortcodes.php:2293 inc/shortcodes.php:2309
+#: inc/shortcodes.php:2320
+msgid "Style 1"
+msgstr ""
+
+#: inc/shortcodes.php:1531 inc/shortcodes.php:2293 inc/shortcodes.php:2321
+msgid "Style 2"
+msgstr ""
+
+#: inc/shortcodes.php:1556
+msgid "Masonry 3x"
+msgstr ""
+
+#: inc/shortcodes.php:1557
+msgid "Masonry 4x"
+msgstr ""
+
+#: inc/shortcodes.php:1558
+msgid "Justified 3x"
+msgstr ""
+
+#: inc/shortcodes.php:1559
+msgid "Justified 4x"
+msgstr ""
+
+#: inc/shortcodes.php:1564
+msgid "Categories"
+msgstr ""
+
+#: inc/shortcodes.php:1567
+msgid "Select Categories"
+msgstr ""
+
+#: inc/shortcodes.php:1572
+msgid "Post per page"
+msgstr ""
+
+#: inc/shortcodes.php:1583
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/shortcodes.php:1584
+msgid "Disable pagination"
+msgstr ""
+
+#: inc/shortcodes.php:1600
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: inc/shortcodes.php:1606
+msgid "Hide author"
+msgstr ""
+
+#: inc/shortcodes.php:1614 inc/shortcodes.php:1626 inc/shortcodes.php:1638
+#: inc/shortcodes.php:1649 inc/shortcodes.php:1661 inc/shortcodes.php:1677
+#: inc/shortcodes.php:1683 inc/shortcodes.php:1693 inc/shortcodes.php:1708
+#: inc/shortcodes.php:1714 inc/shortcodes.php:1728 inc/shortcodes.php:1738
+#: inc/shortcodes.php:1746 inc/shortcodes.php:1761 inc/shortcodes.php:1772
+#: inc/shortcodes.php:1783 inc/shortcodes.php:1970 inc/shortcodes.php:1982
+#: inc/shortcodes.php:1994 inc/shortcodes.php:2005 inc/shortcodes.php:2016
+#: inc/shortcodes.php:2032 inc/shortcodes.php:2038 inc/shortcodes.php:2048
+#: inc/shortcodes.php:2063 inc/shortcodes.php:2069 inc/shortcodes.php:2083
+#: inc/shortcodes.php:2093 inc/shortcodes.php:2101 inc/shortcodes.php:2116
+#: inc/shortcodes.php:2127 inc/shortcodes.php:2138 inc/shortcodes.php:2159
+#: inc/shortcodes.php:2178
+msgid "Load More Button"
+msgstr ""
+
+#: inc/shortcodes.php:1803
+msgid "Number format"
+msgstr ""
+
+#: inc/shortcodes.php:1806
+msgid ""
+"Example: (ddd).ddd -> 9999.99, ( ddd).ddd -> 9 999.99, (,ddd).ddd -> 9,999.99"
+msgstr ""
+
+#: inc/shortcodes.php:1813
+msgid "title"
+msgstr ""
+
+#: inc/shortcodes.php:1818
+msgid "summary"
+msgstr ""
+
+#: inc/shortcodes.php:1823
+msgid "type"
+msgstr ""
+
+#: inc/shortcodes.php:1825
+msgid "circle"
+msgstr ""
+
+#: inc/shortcodes.php:1825
+msgid "line"
+msgstr ""
+
+#: inc/shortcodes.php:1829 inc/shortcodes.php:2300
+msgid "Content"
+msgstr ""
+
+#: inc/shortcodes.php:1849
+msgid "1x column list"
+msgstr ""
+
+#: inc/shortcodes.php:1853
+msgid "Caption Position"
+msgstr ""
+
+#: inc/shortcodes.php:1855
+msgid "Zigzag"
+msgstr ""
+
+#: inc/shortcodes.php:1863
+msgid "Layout Version"
+msgstr ""
+
+#: inc/shortcodes.php:1865
+msgid "With Sidebar"
+msgstr ""
+
+#: inc/shortcodes.php:1875
+msgid "Masonry Grid "
+msgstr ""
+
+#: inc/shortcodes.php:1893 inc/shortcodes.php:2225
+msgid "Gaps Size"
+msgstr ""
+
+#: inc/shortcodes.php:1899 inc/shortcodes.php:2231
+msgid "Display Titles"
+msgstr ""
+
+#: inc/shortcodes.php:1901 inc/shortcodes.php:2233
+msgid "On Page"
+msgstr ""
+
+#: inc/shortcodes.php:1901 inc/shortcodes.php:2233
+msgid "On Hover"
+msgstr ""
+
+#: inc/shortcodes.php:1913
+msgid "Load More "
+msgstr ""
+
+#: inc/shortcodes.php:1913
+msgid "Infinite Scroll "
+msgstr ""
+
+#: inc/shortcodes.php:1924
+msgid "Items per page"
+msgstr ""
+
+#: inc/shortcodes.php:1930 inc/shortcodes.php:2253
+msgid "Show Date & Sets"
+msgstr ""
+
+#: inc/shortcodes.php:1936 inc/shortcodes.php:2259
+msgid "Disable sharing buttons"
+msgstr ""
+
+#: inc/shortcodes.php:1942
+msgid "Activate Filter"
+msgstr ""
+
+#: inc/shortcodes.php:1953
+msgid "Activate Sorting"
+msgstr ""
+
+#: inc/shortcodes.php:1959 inc/shortcodes.php:2204
+msgid "Portfolios"
+msgstr ""
+
+#: inc/shortcodes.php:1962 inc/shortcodes.php:2207
+msgid "Select Portfolios"
+msgstr ""
+
+#: inc/shortcodes.php:2220
+msgid "3 Columns"
+msgstr ""
+
+#: inc/shortcodes.php:2243
+msgid "Background Style"
+msgstr ""
+
+#: inc/shortcodes.php:2245
+msgid "White"
+msgstr ""
+
+#: inc/shortcodes.php:2245
+msgid "Dark"
+msgstr ""
+
+#: inc/shortcodes.php:2271
+msgid "Activate Likes"
+msgstr ""
+
+#: inc/shortcodes.php:2277
+msgid "Arrow"
+msgstr ""
+
+#: inc/shortcodes.php:2279
+msgid "Big"
+msgstr ""
+
+#: inc/shortcodes.php:2293 inc/shortcodes.php:2322
+msgid "Style 3"
+msgstr ""
+
+#: inc/shortcodes.php:2323
+msgid "Style 4"
+msgstr ""
+
+#: inc/shortcodes.php:2324
+msgid "Style 5"
+msgstr ""
+
+#: inc/shortcodes.php:2325
+msgid "Style 6"
+msgstr ""
+
+#: inc/shortcodes.php:2330
+msgid "Teams"
+msgstr ""
+
+#: inc/shortcodes.php:2333
+msgid "Select Teams"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:334 plugins/plugins.php:78
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:335 plugins/plugins.php:79
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:337 plugins/plugins.php:80
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:340 plugins/plugins.php:81
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:343 plugins/plugins.php:82
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:349 plugins/plugins.php:83
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:355 plugins/plugins.php:88
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:367 plugins/plugins.php:85
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:373 plugins/plugins.php:86
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:378 plugins/plugins.php:90
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:392 plugins/plugins.php:92
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:393
+#: plugins/class-tgm-plugin-activation.php:912
+#: plugins/class-tgm-plugin-activation.php:2618
+#: plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:394
+#: plugins/class-tgm-plugin-activation.php:3244 plugins/plugins.php:93
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:395
+#: plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1019
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1206
+#: plugins/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#: plugins/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#: plugins/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/plugins.php:9 plugins/plugins.php:111
+msgid "CodexThemes Elements"
+msgstr ""
+
+#: plugins/plugins.php:19
+msgid "One Click Demo Import"
+msgstr ""
+
+#: plugins/plugins.php:24 plugins/plugins.php:124
+msgid "Revolution Slider"
+msgstr ""
+
+#: plugins/plugins.php:34
+msgid "Wordpress Page Widgets"
+msgstr ""
+
+#: plugins/plugins.php:39 plugins/plugins.php:137
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: plugins/plugins.php:49
+msgid "Contact Form 7"
+msgstr ""
+
+#: plugins/plugins.php:54
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: plugins/plugins.php:59
+msgid "ZillaLikes"
+msgstr ""
+
+#: plugins/plugins.php:84
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/plugins.php:87
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/plugins.php:89
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/plugins.php:91
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/plugins.php:94
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: vc_templates/post_block/_item.php:22 vc_templates/vc_posts_slider.php:149
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: vc_templates/post_block/_item.php:22
+msgid "Read more..."
+msgstr "Leer Más..."
+
+#: vc_templates/vc_posts_grid.php:153
+msgid "All"
+msgstr ""
+
+#: vc_templates/vc_posts_grid.php:194 vc_templates/vc_posts_slider.php:189
+msgid "Nothing found."
+msgstr ""
+
+#~ msgid "Related Posts"
+#~ msgstr "Port Relacionados"
+
+#, fuzzy
+#~ msgid "Go to project"
+#~ msgstr "Siguiente"
+
+#~ msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+#~ msgstr "<span class=\"meta-nav\">Post Anterior</span>%title"
+
+#, fuzzy
+#~ msgid "%s item"
+#~ msgid_plural "%s items"
+#~ msgstr[0] "items"
+#~ msgstr[1] "items"
+
+#, fuzzy
+#~ msgid "Previous step"
+#~ msgstr "Post Anterior"
+
+#, fuzzy
+#~ msgid "Next step"
+#~ msgstr "Post Siguiente"
+
+#~ msgid "Telephone:"
+#~ msgstr "Teléfono:"
