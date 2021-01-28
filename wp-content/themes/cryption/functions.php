@@ -30,9 +30,9 @@ function cryption_setup() {
 		'primary' => esc_html__('Top primary menu', 'cryption'),
 		'footer'  => esc_html__('Footer menu', 'cryption'),
 	));
-	add_theme_support('html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
-	));
+	// add_theme_support('html5', array(
+	// 	'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+	// ));
 	add_theme_support('post-formats', array(
 		'image', 'video', 'audio', 'quote', 'gallery',
 	));
@@ -274,9 +274,9 @@ function cryption_scripts() {
 		wp_enqueue_style( 'ct-rtl', get_template_directory_uri() . '/css/rtl.css');
 	}
 
-	if(is_singular() && comments_open() && get_option('thread_comments')) {
-		wp_enqueue_script('comment-reply', array(), false, true);
-	}
+	// if(is_singular() && comments_open() && get_option('thread_comments')) {
+	// 	wp_enqueue_script('comment-reply', array(), false, true);
+	// }
 
 	$fullwidth_loading_css = "
 		.fullwidth-block {
@@ -781,15 +781,15 @@ function cryption_title($sep = '&raquo;', $display = true, $seplocation = '') {
 	if(!empty($title))
 		$prefix = " $sep ";
 
- 	// Determines position of the separator and direction of the breadcrumb
-	if('right' == $seplocation) { // sep on right, so reverse the order
-		$title_array = explode($t_sep, $title);
-		$title_array = array_reverse($title_array);
-		$title = implode(" $sep ", $title_array) . $prefix;
-	} else {
-		$title_array = explode($t_sep, $title);
-		$title = $prefix . implode(" $sep ", $title_array);
-	}
+ 	// // Determines position of the separator and direction of the breadcrumb
+	// if('right' == $seplocation) { // sep on right, so reverse the order
+	// 	$title_array = explode($t_sep, $title);
+	// 	$title_array = array_reverse($title_array);
+	// 	$title = implode(" $sep ", $title_array) . $prefix;
+	// } else {
+	// 	$title_array = explode($t_sep, $title);
+	// 	$title = $prefix . implode(" $sep ", $title_array);
+	// }
 
 	/**
 	 * Filter the text of the page title.
@@ -1505,11 +1505,11 @@ add_action('wp_enqueue_scripts', 'cryption_print_head_script', 1);
 /* FONTS MANAGER */
 
 /* Create fonts manager page */
-add_action( 'admin_menu', 'cryption_fonts_manager_add_page');
-function cryption_fonts_manager_add_page() {
-	$page = add_theme_page(esc_html__('Fonts Manager', 'cryption'), esc_html__('Fonts Manager', 'cryption'), 'edit_theme_options', 'fonts-manager', 'cryption_fonts_manager_page');
-	add_action('load-' . $page, 'cryption_fonts_manager_page_prepend');
-}
+// add_action( 'admin_menu', 'cryption_fonts_manager_add_page');
+// function cryption_fonts_manager_add_page() {
+// 	$page = add_theme_page(esc_html__('Fonts Manager', 'cryption'), esc_html__('Fonts Manager', 'cryption'), 'edit_theme_options', 'fonts-manager', 'cryption_fonts_manager_page');
+// 	add_action('load-' . $page, 'cryption_fonts_manager_page_prepend');
+// }
 
 /* Admin theme page scripts & css */
 function cryption_fonts_manager_page_prepend() {
@@ -1964,14 +1964,14 @@ function cryption_file_get_contents($file) {
 /*breadcrumbs*/
 
 function cryption_breadcrumbs() {
-    $text['home'] = esc_html__('Home', 'cryption');
-    $text['category'] = esc_html__('Blog Category', 'cryption');
+    // $text['home'] = esc_html__('Home', 'cryption');
+    // $text['category'] = esc_html__('Blog Category', 'cryption');
     $text['search'] =  esc_html__('Search Results', 'cryption');
-    $text['tag'] = esc_html__('Tag', 'cryption');
-    $text['author'] = esc_html__('Posts by', 'cryption');
-    $text['404'] = esc_html__('Posts by', 'cryption');
-    $text['page'] = '%s';
-    $text['cpage'] = esc_html__('Comment %s', 'cryption');
+    // $text['tag'] = esc_html__('Tag', 'cryption');
+    // $text['author'] = esc_html__('Posts by', 'cryption');
+    // $text['404'] = esc_html__('Posts by', 'cryption');
+    // $text['page'] = '%s';
+    // $text['cpage'] = esc_html__('Comment %s', 'cryption');
 
     $delimiter = '<span class="bc-devider"></span>';
     $delim_before = '<span class="divider">';

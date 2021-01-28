@@ -57,23 +57,7 @@
 					<?php if($ct_featured_content): ?>
 						<div class="post-image"><?php echo $ct_featured_content; ?></div>
 					<?php endif; ?>
-					<div class="post-meta date-color">
-						<div class="entry-meta clearfix ct-post-date">
-							<div class="post-meta-left">
-								<span class="post-meta-author"><?php printf( esc_html__( "By %s", "cryption" ), get_the_author_link() ) ?></span>
-								<?php if($ct_categories): ?>
-									<span class="sep"></span><span class="post-meta-categories"><?php echo implode(' <span class="sep"></span> ', $ct_categories_list); ?></span>
-								<?php endif ?>
-							</div>
-							<div class="post-meta-right">
-							<?php if(comments_open()): ?>
-								<span class="comments-link"><?php comments_popup_link(0, 1, '%'); ?></span>
-							<?php endif; ?>
-							<?php if(comments_open() && function_exists('zilla_likes')): ?><span class="sep"></span><?php endif; ?>
-							<?php if( function_exists('zilla_likes') ) { echo '<span class="post-meta-likes">';zilla_likes();echo '</span>'; } ?>
-							</div>
-						</div><!-- .entry-meta -->
-					</div>
+					
 					<div class="post-title"><?php the_title('<'.(is_sticky() && !is_paged() ? 'h2' : 'h3').' class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">'.get_the_date('d M').': <span class="light">', '</span></a></'.(is_sticky() && !is_paged() ? 'h2' : 'h3').'>'); ?></div>
 					<div class="post-content">
 						<div class="summary">

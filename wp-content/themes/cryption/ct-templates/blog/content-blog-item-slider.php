@@ -48,19 +48,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="post-meta date-color">
-			<div class="entry-meta clearfix ct-post-date">
-				<div class="post-meta-right">
-					<?php if(comments_open() && !$params['hide_comments'] ): ?>
-						<span class="comments-link"><?php comments_popup_link(0, 1, '%'); ?></span>
-					<?php endif; ?>
-					<?php if(comments_open() && !$params['hide_comments'] && function_exists('zilla_likes') && !$params['hide_likes']): ?><span class="sep"></span><?php endif; ?>
-					<?php if( function_exists('zilla_likes') && !$params['hide_likes'] ) { echo '<span class="post-meta-likes">';zilla_likes();echo '</span>'; } ?>
-				</div>
-				<div class="post-meta-left">
-					<?php if(!$params['hide_author']) : ?><span class="post-meta-author"><?php printf( esc_html__( "By %s", "cryption" ), get_the_author_link() ) ?></span><?php endif; ?>
-				</div>
-			</div><!-- .entry-meta -->
-		</div>
+		
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->

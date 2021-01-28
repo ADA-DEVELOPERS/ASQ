@@ -3327,7 +3327,7 @@ All this is done for any sub-level being entered.
 /* BLOCKS */
 
 .block-content {
-    padding: 135px 0 100px;
+    padding: 10px 0 50px;
 }
 .block-content:last-of-type {
     padding-bottom: 150px;
@@ -8135,8 +8135,8 @@ img[class*='wp-image-'] {
 /* 10.15 - Search form empty page */
 
 body.search .page-title-block {
-    padding-top: 45px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 body.search .page-title-block .page-title-icon {
     margin-top: -10px;

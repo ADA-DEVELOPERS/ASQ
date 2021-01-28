@@ -109,7 +109,7 @@ msgstr "Этот файл загружается только для совме�
 msgid "&larr; Go to Tags"
 msgstr "&larr; Перейти к меткам"
 
-#: wp-includes/media.php:4295
+#: wp-includes/media.php:4296
 msgid "&#8592; Go to library"
 msgstr "&#8592; Перейти в библиотеку"
 
@@ -286,7 +286,7 @@ msgid "An application name is required to create an application password."
 msgstr "Для создания пароля приложения требуется указать название приложения."
 
 #: wp-includes/media-template.php:513 wp-includes/media-template.php:742
-#: wp-admin/includes/media.php:3331
+#: wp-admin/includes/media.php:3332
 msgid "Copy URL to clipboard"
 msgstr "Скопировать URL в буфер обмена"
 
@@ -724,7 +724,7 @@ msgstr "Нет авторизации. Вы можете убрать парам
 msgid "The \"%1$s\" option key has been renamed to \"%2$s\"."
 msgstr "Ключ настроек \"%1$s\" был переименован в \"%2$s\"."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:670
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:672
 msgid "Sorry, you are not allowed to manage network plugins."
 msgstr "Извините, вам не разрешено управлять плагинами сети."
 
@@ -738,7 +738,7 @@ msgstr "В определении маршрута REST API для %1$s отсу
 msgid "Could not update attachment in the database."
 msgstr "Невозможно обновить информацию о вложении в базе данных."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:678
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:680
 #: wp-admin/plugins.php:48 wp-admin/plugins.php:175
 msgid "Sorry, you are not allowed to activate this plugin."
 msgstr "К сожалению, вам не разрешено активировать этот плагин."
@@ -925,11 +925,11 @@ msgstr "Название паттерна должно быть строкой."
 msgid "Pattern name must be a string."
 msgstr "Имя шаблона должно быть строкой."
 
-#: wp-includes/media.php:4323
+#: wp-includes/media.php:4324
 msgid "Attachment details"
 msgstr "Информация о вложении"
 
-#: wp-includes/media.php:4269 wp-includes/media.php:4291
+#: wp-includes/media.php:4270 wp-includes/media.php:4292
 msgid "Add media"
 msgstr "Добавить медиафайл"
 
@@ -942,7 +942,7 @@ msgid "Could not update comment in the database."
 msgstr "Невозможно обновить комментарий в базе данных."
 
 #: wp-includes/media-template.php:510 wp-includes/media-template.php:739
-#: wp-admin/includes/media.php:3328
+#: wp-admin/includes/media.php:3329
 msgid "File URL:"
 msgstr "Ссылка на файл:"
 
@@ -1149,89 +1149,89 @@ msgstr "К сожалению, вы не можете просматривать
 msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "Это имя пользователя некорректно, поскольку оно содержит недопустимые символы. Пожалуйста, введите корректное имя пользователя."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:963
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:965
 msgid "Limits results to plugins with the given status."
 msgstr "Ограничить результаты плагинами с заданным статусом."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:939
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:941
 msgid "The plugin's text domain."
 msgstr "Текстовый домен плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:933
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:935
 msgid "Minimum required version of PHP."
 msgstr "Минимальная требуемая версия PHP."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:927
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:929
 msgid "Minimum required version of WordPress."
 msgstr "Минимальная требуемая версия WordPress."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:921
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:923
 msgid "Whether the plugin can only be activated network-wide."
 msgstr "Может ли плагин быть активирован только по всей сети."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:915
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:917
 msgid "The plugin version number."
 msgstr "Номер версии плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:909
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:911
 msgid "The plugin description formatted for display."
 msgstr "Описание плагина для отображения."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:905
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:907
 msgid "The raw plugin description."
 msgstr "Исходное описание плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:899
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:901
 msgid "The plugin description."
 msgstr "Описание плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:892
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:894
 msgid "Plugin author's website address."
 msgstr "Адрес сайта автора плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:886
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:888
 msgid "The plugin author."
 msgstr "Автор плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:879
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:881
 msgid "The plugin's website address."
 msgstr "Адрес сайта плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:873
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:875
 msgid "The plugin name."
 msgstr "Имя плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:860
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:862
 msgid "The plugin file."
 msgstr "Файл плагина."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:839
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:841
 msgid "The filesystem is currently unavailable for managing plugins."
 msgstr "Файловая система в настоящее время недоступна для управления плагинами."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:720
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:722
 msgid "Network only plugin must be network activated."
 msgstr "Плагин только для сети должен быть активирован для сети."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:686
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:688
 #: wp-admin/plugins.php:198
 msgid "Sorry, you are not allowed to deactivate this plugin."
 msgstr "К сожалению, вы не имеете права деактивировать этот плагин."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:523
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:525
 msgid "Cannot delete an active plugin. Please deactivate it first."
 msgstr "Невозможно удалить активный плагин. Пожалуйста, сначала отключите его."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:488
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:490
 #: wp-admin/includes/ajax-actions.php:4539 wp-admin/plugins.php:268
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "К сожалению, вы не имеете права удалять плагины для этого сайта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:342
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:344
 msgid "Unable to determine what plugin was installed."
 msgstr "Не удалось определить, какой плагин был установлен."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:336
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:338
 #: wp-admin/includes/ajax-actions.php:4073
 #: wp-admin/includes/ajax-actions.php:4203
 #: wp-admin/includes/ajax-actions.php:4267
@@ -1241,33 +1241,33 @@ msgstr "Не удалось определить, какой плагин был
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Не удалось подключиться к файловой системе. Пожалуйста, подтвердите свои учетные данные."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:251
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:253
 msgid "Sorry, you are not allowed to activate plugins."
 msgstr "К сожалению, вам не разрешается активировать плагины."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:243
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:245
 #: wp-admin/includes/ajax-actions.php:4320 wp-admin/update.php:106
 #: wp-admin/update.php:149 wp-admin/update.php:181
 #: wp-admin/plugin-install.php:19
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "К сожалению, вам не разрешается устанавливать плагины на этом сайте."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:213
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:626
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:215
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:628
 msgid "Plugin not found."
 msgstr "Плагин не найден."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:116
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:166
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:410
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:480
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:412
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:482
 #: wp-admin/includes/ajax-actions.php:4615
 #: wp-admin/includes/ajax-actions.php:4667 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "К сожалению, вы не имеете права управлять плагинами для этого сайта."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:59
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:867
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:869
 msgid "The plugin activation status."
 msgstr "Статус активации плагина."
 
@@ -1684,7 +1684,7 @@ msgstr "К сожалению, эта запись не может быть уд
 msgid "Sorry, the post could not be updated."
 msgstr "К сожалению, запись не может быть обновлена."
 
-#: wp-includes/media.php:4370 wp-includes/js/dist/block-library.js:24941
+#: wp-includes/media.php:4371 wp-includes/js/dist/block-library.js:24941
 msgid "Select poster image"
 msgstr "Выберите изображение постера"
 
@@ -1780,7 +1780,7 @@ msgid "Filter %s returned items with reserved names."
 msgstr "Фильтр %s вернул элементы с зарезервированными именами."
 
 #: wp-includes/media-template.php:441 wp-includes/media-template.php:664
-#: wp-admin/includes/media.php:3469
+#: wp-admin/includes/media.php:3470
 msgid "Original image:"
 msgstr "Исходное изображение:"
 
@@ -1935,11 +1935,11 @@ msgstr "Неизвестный адрес email. Перепроверьте ил
 msgid "Unknown username. Check again or try your email address."
 msgstr "Неизвестное имя пользователя. Перепроверьте или попробуйте ваш адрес email."
 
-#: wp-includes/media.php:4395
+#: wp-includes/media.php:4396
 msgid "Media list"
 msgstr "Список медиафайлов"
 
-#: wp-includes/media.php:4394
+#: wp-includes/media.php:4395
 msgid "Filter media"
 msgstr "Фильтр медиафайлов"
 
@@ -2087,19 +2087,19 @@ msgstr "Недостаточно данных для создания польз
 msgid "Sorry, marking a user as spam is only supported on Multisite."
 msgstr "Отметить пользователя как спамера можно только на мультисайт установке."
 
-#: wp-includes/media.php:4833
+#: wp-includes/media.php:4834
 msgid "User&#8217;s media data."
 msgstr "Пользовательские мультимедиа данные."
 
-#: wp-includes/media.php:4320
+#: wp-includes/media.php:4321
 msgid "No media items found. Try a different search."
 msgstr "Медиаэлементов не найдено. Попробуйте другой запрос."
 
-#: wp-includes/media.php:4318
+#: wp-includes/media.php:4319
 msgid "Number of media items displayed: %d. Scroll the page for more results."
 msgstr "Число отображаемых медиаэлементов: %d, прокрутите страницу для других результатов."
 
-#: wp-includes/media.php:4317
+#: wp-includes/media.php:4318
 msgid "Number of media items found: %d"
 msgstr "Найдено медиаэлементов: %d"
 
@@ -2410,7 +2410,7 @@ msgid "[%s] Login Details"
 msgstr "[%s] Данные для входа на сайт"
 
 #: wp-includes/media-template.php:538 wp-includes/media-template.php:689
-#: wp-includes/media.php:4308 wp-admin/includes/meta-boxes.php:337
+#: wp-includes/media.php:4309 wp-admin/includes/meta-boxes.php:337
 #: wp-admin/includes/meta-boxes.php:441 wp-admin/includes/media.php:1734
 #: wp-admin/includes/class-wp-media-list-table.php:177
 #: wp-admin/includes/class-wp-comments-list-table.php:374
@@ -2420,7 +2420,7 @@ msgid "Move to Trash"
 msgstr "Удалить"
 
 #: wp-includes/media-template.php:536 wp-includes/media-template.php:687
-#: wp-includes/media.php:4309
+#: wp-includes/media.php:4310
 msgid "Restore from Trash"
 msgstr "Восстановить из корзины"
 
@@ -2481,7 +2481,7 @@ msgstr "записи"
 msgid "A calendar of your site’s posts."
 msgstr "Календарь записей сайта."
 
-#: wp-includes/media.php:4334
+#: wp-includes/media.php:4335
 msgid "Edit gallery"
 msgstr "Редактировать галерею"
 
@@ -2867,7 +2867,7 @@ msgstr "Извините, вам не разрешен просмотр авто
 msgid "Start writing or type / to choose a block"
 msgstr "Начните писать или нажмите / для выбора блока"
 
-#: wp-includes/media.php:4346 wp-includes/js/dist/block-library.js:5985
+#: wp-includes/media.php:4347 wp-includes/js/dist/block-library.js:5985
 #: wp-includes/js/dist/block-library.js:5986
 msgid "Edit image"
 msgstr "Редактировать изображение"
@@ -2881,7 +2881,7 @@ msgstr "Редактировать изображение"
 msgid "Write title…"
 msgstr "Введите заголовок..."
 
-#: wp-includes/js/dist/blocks.js:6009 wp-admin/options-media.php:100
+#: wp-includes/js/dist/blocks.js:6010 wp-admin/options-media.php:100
 msgid "Embeds"
 msgstr "Вставки"
 
@@ -2903,7 +2903,7 @@ msgstr "Видимость:"
 #: wp-includes/js/dist/editor.js:10136 wp-includes/js/dist/edit-post.js:1838
 #: wp-includes/js/dist/block-library.js:16054
 #: wp-admin/includes/class-wp-privacy-policy-content.php:423
-#: wp-admin/includes/media.php:3332 wp-admin/site-health-info.php:102
+#: wp-admin/includes/media.php:3333 wp-admin/site-health-info.php:102
 msgid "Copied!"
 msgstr "Скопировано!"
 
@@ -2912,7 +2912,7 @@ msgstr "Скопировано!"
 msgid "Submit for Review"
 msgstr "Отправить на рассмотрение"
 
-#: wp-includes/media.php:4344 wp-includes/js/dist/block-library.js:8674
+#: wp-includes/media.php:4345 wp-includes/js/dist/block-library.js:8674
 msgid "Replace image"
 msgstr "Заменить изображение"
 
@@ -2958,7 +2958,7 @@ msgstr "Элемент добавлен."
 #: wp-admin/includes/class-wp-site-health.php:1517
 #: wp-admin/includes/class-wp-site-health.php:2131
 #: wp-admin/includes/dashboard.php:1243 wp-admin/includes/dashboard.php:1255
-#: wp-admin/includes/dashboard.php:1268 wp-admin/includes/dashboard.php:1768
+#: wp-admin/includes/dashboard.php:1268 wp-admin/includes/dashboard.php:1783
 msgid "(opens in a new tab)"
 msgstr "(откроется в новой вкладке)"
 
@@ -3377,7 +3377,7 @@ msgstr "ID пользователя"
 msgid "WordPress User"
 msgstr "Пользователь WordPress"
 
-#: wp-includes/media.php:4776
+#: wp-includes/media.php:4777
 msgid "WordPress Media"
 msgstr "Медиаданные WordPress"
 
@@ -3530,7 +3530,7 @@ msgstr "Ограничить выборку пользователями-авт�
 msgid "Sorry, you are not allowed to query users by this parameter."
 msgstr "Извините, вам не разрешено делать запрос пользователей по этому параметру."
 
-#: wp-includes/media.php:4301
+#: wp-includes/media.php:4302
 #: wp-admin/includes/class-wp-media-list-table.php:153
 msgctxt "media items"
 msgid "Mine"
@@ -4339,7 +4339,7 @@ msgstr "Неверный URL."
 msgid "Time to add some links! Click &#8220;%s&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
 msgstr "Время добавить пару ссылок! , Нажмите &#8220;%s&#8221;, чтобы начать добавлять страницы, рубрики и произвольные ссылки в меню, добавляйте столько, сколько вам нравится."
 
-#: wp-includes/media.php:4349
+#: wp-includes/media.php:4350
 #: wp-includes/customize/class-wp-customize-media-control.php:252
 msgid "Choose image"
 msgstr "Выбор изображения"
@@ -4683,7 +4683,7 @@ msgctxt "label for button in the audio widget"
 msgid "Add Audio"
 msgstr "Добавить аудиозапись"
 
-#: wp-includes/media.php:3869 wp-admin/includes/media.php:3293
+#: wp-includes/media.php:3870 wp-admin/includes/media.php:3293
 msgid "(no author)"
 msgstr "(без автора)"
 
@@ -4989,7 +4989,7 @@ msgstr "Изображение записи"
 msgid "%1$s is deprecated. The callback from %2$s is used instead."
 msgstr "%1$s устарело. Вместо этого используйте обратный вызов %2$s."
 
-#: wp-includes/media.php:4305
+#: wp-includes/media.php:4306
 msgid ""
 "You are about to permanently delete these items from your site.\n"
 "This action cannot be undone.\n"
@@ -4999,7 +4999,7 @@ msgstr ""
 "Это действие не может быть отменено.\n"
 " 'Отмена' для отмены, 'OK' для удаления."
 
-#: wp-includes/media.php:4304
+#: wp-includes/media.php:4305
 msgid ""
 "You are about to permanently delete this item from your site.\n"
 "This action cannot be undone.\n"
@@ -5010,7 +5010,7 @@ msgstr ""
 " 'Отмена' для отмены, 'OK' для удаления."
 
 #. translators: 1: Suggested width number, 2: Suggested height number.
-#: wp-includes/media-template.php:296 wp-includes/media.php:4356
+#: wp-includes/media-template.php:296 wp-includes/media.php:4357
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "Предлагаемый размер изображения: %1$s на %2$s пикселей."
 
@@ -6189,7 +6189,7 @@ msgstr "Запись уже была удалена."
 msgid "Sorry, you are not allowed to edit comments."
 msgstr "Извините, вам не разрешено редактировать комментарии."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:226
+#: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:228
 msgid "Sorry, you are not allowed to manage this plugin."
 msgstr "К сожалению, вам не разрешено обновлять этот плагин"
 
@@ -6701,7 +6701,7 @@ msgstr "Город в той же временной зоне что и у ва�
 msgid "Site title."
 msgstr "Название сайта."
 
-#: wp-includes/media.php:4316
+#: wp-includes/media.php:4317
 msgid "Search media items..."
 msgstr "Поиск медиафайлов..."
 
@@ -7266,7 +7266,7 @@ msgstr "Ссылка выбрана."
 msgid "%s is required to strip image meta."
 msgstr "Для удаления метаданных изображения необходим метод %s."
 
-#: wp-includes/media.php:4319
+#: wp-includes/media.php:4320
 msgid "No media items found."
 msgstr "Медиафайлов не найдено."
 
@@ -8932,7 +8932,7 @@ msgstr ""
 "\n"
 "--Команда сайта «SITE_NAME»"
 
-#: wp-includes/media.php:4283
+#: wp-includes/media.php:4284
 msgid "Drag and drop to reorder media files."
 msgstr "Отсортируйте медиафайлы путём перетаскивания."
 
@@ -9110,7 +9110,7 @@ msgstr "Комментарий: %s"
 msgid "URL: %s"
 msgstr "URL: %s"
 
-#: wp-includes/media.php:4302
+#: wp-includes/media.php:4303
 msgctxt "noun"
 msgid "Trash"
 msgstr "Корзина"
@@ -9314,7 +9314,7 @@ msgstr "Ссылку"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>Вы успешно обновили WordPress!</strong> Пожалуйста, войдите, чтобы узнать, что нового."
 
-#: wp-includes/media.php:4306
+#: wp-includes/media.php:4307
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -9326,7 +9326,7 @@ msgstr ""
 msgid "Press return or enter to open this panel"
 msgstr "Нажмите Enter, чтобы открыть эту панель"
 
-#: wp-includes/media.php:4307
+#: wp-includes/media.php:4308
 msgid "Bulk select"
 msgstr "Множественный выбор"
 
@@ -9345,25 +9345,25 @@ msgstr "(без текста)"
 msgid "This site is no longer available."
 msgstr "Этот сайт недоступен."
 
-#: wp-includes/media.php:4315
+#: wp-includes/media.php:4316
 msgid "Search media"
 msgstr "Поиск медиафайлов"
 
-#: wp-includes/media.php:4313
+#: wp-includes/media.php:4314
 #: wp-admin/includes/class-wp-media-list-table.php:269
 msgid "Filter by type"
 msgstr "Фильтр по типу"
 
-#: wp-includes/media.php:4312 wp-admin/includes/class-wp-list-table.php:640
+#: wp-includes/media.php:4313 wp-admin/includes/class-wp-list-table.php:640
 msgid "Filter by date"
 msgstr "Фильтр по дате"
 
-#: wp-includes/media.php:4300
+#: wp-includes/media.php:4301
 #: wp-admin/includes/class-wp-media-list-table.php:148
 msgid "Unattached"
 msgstr "Неприкреплённые"
 
-#: wp-includes/media.php:4297 wp-admin/includes/media.php:2831
+#: wp-includes/media.php:4298 wp-admin/includes/media.php:2831
 #: wp-admin/includes/class-wp-list-table.php:642
 msgid "All dates"
 msgstr "Все даты"
@@ -9384,26 +9384,26 @@ msgstr "Изменить другие детали"
 msgid "View attachment page"
 msgstr "Просмотреть страницу вложения"
 
-#: wp-includes/media-template.php:419 wp-admin/includes/media.php:3317
-#: wp-admin/includes/media.php:3319
+#: wp-includes/media-template.php:419 wp-admin/includes/media.php:3318
+#: wp-admin/includes/media.php:3320
 msgid "Uploaded to:"
 msgstr "Загружено в:"
 
-#: wp-includes/media-template.php:410 wp-admin/includes/media.php:3302
-#: wp-admin/includes/media.php:3304
+#: wp-includes/media-template.php:410 wp-admin/includes/media.php:3303
+#: wp-admin/includes/media.php:3305
 msgid "Uploaded by:"
 msgstr "Загружено:"
 
-#: wp-includes/media-template.php:455 wp-admin/includes/media.php:3380
+#: wp-includes/media-template.php:455 wp-admin/includes/media.php:3381
 msgid "Bitrate:"
 msgstr "Битрейт:"
 
 #: wp-includes/media-template.php:432 wp-admin/includes/media.php:1695
-#: wp-admin/includes/media.php:3461
+#: wp-admin/includes/media.php:3462
 msgid "Dimensions:"
 msgstr "Размеры:"
 
-#: wp-includes/media-template.php:429 wp-admin/includes/media.php:3372
+#: wp-includes/media-template.php:429 wp-admin/includes/media.php:3373
 msgid "File size:"
 msgstr "Размер файла:"
 
@@ -9412,12 +9412,12 @@ msgid "Uploaded on:"
 msgstr "Загружен:"
 
 #: wp-includes/media-template.php:428 wp-admin/includes/media.php:1691
-#: wp-admin/includes/media.php:3339
+#: wp-admin/includes/media.php:3340
 msgid "File type:"
 msgstr "Тип файла:"
 
 #: wp-includes/media-template.php:427 wp-admin/includes/media.php:1690
-#: wp-admin/includes/media.php:3336
+#: wp-admin/includes/media.php:3337
 #: wp-admin/includes/class-wp-media-list-table.php:434
 msgid "File name:"
 msgstr "Имя файла:"
@@ -9500,31 +9500,31 @@ msgstr "<strong>ОШИБКА</strong>: Cookies либо заблокирован
 msgid "<strong>Error</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
 msgstr "<strong>ОШИБКА</strong>: Cookies заблокированы из-за неожиданного вывода на экран. Посмотрите <a href=\"%1$s\">документацию</a> или обратитесь за помощью на <a href=\"%2$s\">форумы поддержки</a>."
 
-#: wp-includes/media.php:4381
+#: wp-includes/media.php:4382
 msgid "Add to Audio Playlist"
 msgstr "Добавить в плей-лист"
 
-#: wp-includes/media.php:4380
+#: wp-includes/media.php:4381
 msgid "Add to audio playlist"
 msgstr "Добавить в плей-лист аудио"
 
-#: wp-includes/media.php:4379
+#: wp-includes/media.php:4380
 msgid "Update audio playlist"
 msgstr "Обновить плей-лист аудио"
 
-#: wp-includes/media.php:4378
+#: wp-includes/media.php:4379
 msgid "Insert audio playlist"
 msgstr "Вставить плей-лист аудио"
 
-#: wp-includes/media.php:4377
+#: wp-includes/media.php:4378
 msgid "&#8592; Cancel audio playlist"
 msgstr "&#8592; Отменить создание плей-листа"
 
-#: wp-includes/media.php:4376
+#: wp-includes/media.php:4377
 msgid "Edit audio playlist"
 msgstr "Изменить плей-лист"
 
-#: wp-includes/media.php:4357
+#: wp-includes/media.php:4358
 msgid "There has been an error cropping your image."
 msgstr "При обрезке изображения произошла ошибка."
 
@@ -9638,7 +9638,7 @@ msgctxt "auto preload"
 msgid "Auto"
 msgstr "Авто"
 
-#: wp-includes/media.php:4354
+#: wp-includes/media.php:4355
 msgid "Cropping&hellip;"
 msgstr "Обработка&hellip;"
 
@@ -9890,109 +9890,109 @@ msgstr "Аргумент запроса метода %s должен содер�
 msgid "Invalid menu ID."
 msgstr "Неверный ID меню."
 
-#: wp-includes/media.php:4391
+#: wp-includes/media.php:4392
 msgid "Add to video Playlist"
 msgstr "Добавить в видео плейлист"
 
-#: wp-includes/media.php:4390
+#: wp-includes/media.php:4391
 msgid "Add to video playlist"
 msgstr "Добавить в плей-лист видео"
 
-#: wp-includes/media.php:4389
+#: wp-includes/media.php:4390
 msgid "Update video playlist"
 msgstr "Обновить плей-лист видео"
 
-#: wp-includes/media.php:4388
+#: wp-includes/media.php:4389
 msgid "Insert video playlist"
 msgstr "Вставить плей-лист видео"
 
-#: wp-includes/media.php:4387
+#: wp-includes/media.php:4388
 msgid "&#8592; Cancel video playlist"
 msgstr "&#8592; Отменить создание плейлиста видео"
 
-#: wp-includes/media.php:4386
+#: wp-includes/media.php:4387
 msgid "Edit video playlist"
 msgstr "Изменить видео плейлист"
 
-#: wp-includes/media.php:4385
+#: wp-includes/media.php:4386
 msgid "Create video playlist"
 msgstr "Создать видео плейлист"
 
-#: wp-includes/media.php:4384
+#: wp-includes/media.php:4385
 msgid "Drag and drop to reorder videos."
 msgstr "Отсортируйте видеофайлы путём перетаскивания."
 
-#: wp-includes/media.php:4375
+#: wp-includes/media.php:4376
 msgid "Create audio playlist"
 msgstr "Создать аудио плейлист"
 
-#: wp-includes/media.php:4374
+#: wp-includes/media.php:4375
 msgid "Drag and drop to reorder tracks."
 msgstr "Отсортируйте треки путём перетаскивания."
 
-#: wp-includes/media.php:4371
+#: wp-includes/media.php:4372
 msgid "Add subtitles"
 msgstr "Добавить субтитры"
 
-#: wp-includes/media.php:4368
+#: wp-includes/media.php:4369
 msgid "Add video source"
 msgstr "Добавить источник видео"
 
-#: wp-includes/media.php:4367
+#: wp-includes/media.php:4368
 msgid "Replace video"
 msgstr "Заменить видеофайл"
 
-#: wp-includes/media.php:4366
+#: wp-includes/media.php:4367
 msgid "Video details"
 msgstr "Сведения о видеофайле"
 
-#: wp-includes/media.php:4362
+#: wp-includes/media.php:4363
 msgid "Add audio source"
 msgstr "Добавить источник аудио"
 
-#: wp-includes/media.php:4361
+#: wp-includes/media.php:4362
 msgid "Replace audio"
 msgstr "Заменить аудиофайл"
 
-#: wp-includes/media.php:4360
+#: wp-includes/media.php:4361
 msgid "Audio details"
 msgstr "Сведения об аудиофайле"
 
-#: wp-includes/media.php:4353
+#: wp-includes/media.php:4354
 msgid "Crop your image"
 msgstr "Обрезать изображение"
 
-#: wp-includes/media.php:4352
+#: wp-includes/media.php:4353
 msgid "Crop image"
 msgstr "Обрезать изображение"
 
-#: wp-includes/media.php:4351
+#: wp-includes/media.php:4352
 msgid "Skip cropping"
 msgstr "Не обрезать"
 
-#: wp-includes/media.php:4350
+#: wp-includes/media.php:4351
 msgid "Select and crop"
 msgstr "Выбрать и обрезать"
 
-#: wp-includes/media.php:4345 wp-includes/media.php:4363
-#: wp-includes/media.php:4369
+#: wp-includes/media.php:4346 wp-includes/media.php:4364
+#: wp-includes/media.php:4370
 msgid "Cancel edit"
 msgstr "Отменить редактирование"
 
-#: wp-includes/media.php:4343
+#: wp-includes/media.php:4344
 msgid "Image details"
 msgstr "Сведения об изображении"
 
-#: wp-includes/media.php:4294
+#: wp-includes/media.php:4295
 msgid "Create a new video playlist"
 msgstr "Создать плей-лист видео"
 
-#: wp-includes/media.php:4293
+#: wp-includes/media.php:4294
 msgid "Create a new playlist"
 msgstr "Создать плей-лист"
 
 #: wp-includes/class-wp-customize-section.php:365
-#: wp-includes/class-wp-customize-widgets.php:821 wp-includes/media.php:4276
+#: wp-includes/class-wp-customize-widgets.php:821 wp-includes/media.php:4277
 #: wp-includes/class-wp-customize-panel.php:369
 #: wp-includes/customize/class-wp-customize-themes-panel.php:70
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:72
@@ -10127,7 +10127,7 @@ msgstr "С учётом регистра"
 msgid "Find and replace"
 msgstr "Найти и заменить"
 
-#: wp-includes/media-template.php:1226 wp-includes/media.php:4274
+#: wp-includes/media-template.php:1226 wp-includes/media.php:4275
 #: wp-includes/js/dist/block-editor.js:37695
 #: wp-includes/js/dist/block-library.js:24951
 msgid "Replace"
@@ -10502,7 +10502,7 @@ msgid "Embed or Link"
 msgstr "Вставить объект или ссылку"
 
 #: wp-includes/media-template.php:447 wp-includes/media-template.php:674
-#: wp-admin/includes/media.php:3379
+#: wp-admin/includes/media.php:3380
 msgid "Length:"
 msgstr "Продолжительность:"
 
@@ -10726,11 +10726,11 @@ msgstr "Неверный ID пользователя."
 msgid "Random Order"
 msgstr "Случайный порядок"
 
-#: wp-includes/media.php:4326 wp-includes/js/dist/block-editor.js:38338
+#: wp-includes/media.php:4327 wp-includes/js/dist/block-editor.js:38338
 msgid "Insert from URL"
 msgstr "Вставить с сайта"
 
-#: wp-includes/media.php:4282
+#: wp-includes/media.php:4283
 msgid "%d selected"
 msgstr "Выбрано: %d"
 
@@ -10739,7 +10739,7 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Случайно"
 
-#: wp-includes/media-template.php:1475 wp-includes/media.php:4298
+#: wp-includes/media-template.php:1475 wp-includes/media.php:4299
 #: wp-admin/includes/class-wp-themes-list-table.php:93
 #: wp-admin/includes/class-wp-list-table.php:335
 #: wp-admin/includes/ajax-actions.php:2180
@@ -10747,7 +10747,7 @@ msgstr "Случайно"
 msgid "No items found."
 msgstr "Элементов не найдено."
 
-#: wp-includes/media.php:4340
+#: wp-includes/media.php:4341
 msgid "Reverse order"
 msgstr "В обратном порядке"
 
@@ -10756,7 +10756,7 @@ msgid "Deselect"
 msgstr "Снять выделение"
 
 #: wp-includes/media-template.php:541 wp-includes/media-template.php:692
-#: wp-includes/media.php:4310 wp-admin/includes/meta-boxes.php:335
+#: wp-includes/media.php:4311 wp-admin/includes/meta-boxes.php:335
 #: wp-admin/includes/meta-boxes.php:444
 #: wp-admin/includes/class-wp-media-list-table.php:175
 #: wp-admin/includes/class-wp-media-list-table.php:180
@@ -10843,7 +10843,7 @@ msgstr "Аудио"
 msgid "Uploaded to this post"
 msgstr "Загруженные для этой записи"
 
-#: wp-includes/media.php:4296
+#: wp-includes/media.php:4297
 #: wp-admin/includes/class-wp-media-list-table.php:125
 msgid "All media items"
 msgstr "Все медиафайлы"
@@ -10873,7 +10873,7 @@ msgid "Attachment Details"
 msgstr "Параметры файла"
 
 #: wp-includes/media-template.php:856 wp-includes/media-template.php:936
-#: wp-includes/media-template.php:1127 wp-includes/media.php:3917
+#: wp-includes/media-template.php:1127 wp-includes/media.php:3918
 #: wp-includes/js/dist/components.js:35855
 #: wp-includes/js/dist/block-editor.js:20409
 #: wp-admin/includes/class-custom-background.php:599
@@ -10881,11 +10881,11 @@ msgstr "Параметры файла"
 msgid "Large"
 msgstr "Большой"
 
-#: wp-includes/media.php:4335
+#: wp-includes/media.php:4336
 msgid "&#8592; Cancel gallery"
 msgstr "&#8592; Отменить создание галереи"
 
-#: wp-includes/media.php:4287
+#: wp-includes/media.php:4288
 msgid "Upload images"
 msgstr "Загрузить изображения"
 
@@ -10901,11 +10901,11 @@ msgstr "Настройки отображения файла"
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; Успех"
 
-#: wp-includes/media.php:4286
+#: wp-includes/media.php:4287
 msgid "Upload files"
 msgstr "Загрузить файлы"
 
-#: wp-includes/media.php:4336 wp-admin/includes/media.php:2667
+#: wp-includes/media.php:4337 wp-admin/includes/media.php:2667
 msgid "Insert gallery"
 msgstr "Вставить галерею"
 
@@ -10915,11 +10915,11 @@ msgstr "Вставить галерею"
 msgid "Drop files to upload"
 msgstr "Перетащите файлы сюда"
 
-#: wp-includes/media.php:4333
+#: wp-includes/media.php:4334
 msgid "Create gallery"
 msgstr "Создать галерею"
 
-#: wp-includes/media.php:4290 wp-includes/js/dist/block-editor.js:38365
+#: wp-includes/media.php:4291 wp-includes/js/dist/block-editor.js:38365
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:79
 #: wp-admin/upload.php:216
 msgid "Media Library"
@@ -10998,7 +10998,7 @@ msgstr "Страница вложения"
 msgid "Link To"
 msgstr "Ссылка"
 
-#: wp-includes/media.php:4337
+#: wp-includes/media.php:4338
 msgid "Update gallery"
 msgstr "Обновить галерею"
 
@@ -11071,7 +11071,7 @@ msgstr "Не удалось вставить связь элемента в ба
 msgid "Clear"
 msgstr "Сброс"
 
-#: wp-includes/media.php:4338 wp-includes/media.php:4339
+#: wp-includes/media.php:4339 wp-includes/media.php:4340
 msgid "Add to gallery"
 msgstr "Добавить в галерею"
 
@@ -11079,7 +11079,7 @@ msgstr "Добавить в галерею"
 msgid "Insert into post"
 msgstr "Вставить в запись"
 
-#: wp-includes/media.php:4292
+#: wp-includes/media.php:4293
 msgid "Create a new gallery"
 msgstr "Создать новую галерею"
 
@@ -11297,7 +11297,7 @@ msgid "Allowed Files"
 msgstr "Разрешённые файлы"
 
 #: wp-includes/media-template.php:574
-#: wp-includes/class-wp-customize-widgets.php:777 wp-includes/media.php:4275
+#: wp-includes/class-wp-customize-widgets.php:777 wp-includes/media.php:4276
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:158
 #: wp-includes/customize/class-wp-customize-media-control.php:228
 #: wp-includes/customize/class-wp-customize-media-control.php:238
@@ -11496,7 +11496,7 @@ msgstr "Тип ссылки по умолчанию для изображени�
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:431
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:710
 #: wp-admin/includes/post.php:267 wp-admin/includes/post.php:1891
-#: wp-admin/includes/post.php:1895 wp-admin/includes/media.php:3765
+#: wp-admin/includes/post.php:1895 wp-admin/includes/media.php:3766
 #: wp-admin/includes/ajax-actions.php:1998
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Извините, вам не разрешено редактировать эту запись."
@@ -13786,7 +13786,7 @@ msgstr "Свойства документа"
 
 #: wp-includes/script-loader.php:1135 wp-includes/theme.php:3501
 #: wp-includes/class-wp-editor.php:1363 wp-admin/js/widgets.js:98
-#: wp-admin/js/post.js:497 wp-admin/js/theme-plugin-editor.js:71
+#: wp-admin/js/post.js:505 wp-admin/js/theme-plugin-editor.js:71
 #: wp-admin/js/nav-menu.js:1053
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Сделанные вами изменения будут отменены, если вы уйдёте с этой страницы."
@@ -14116,7 +14116,7 @@ msgstr "%1$s %2$s"
 
 #. translators: 1: Month, 2: Year.
 #. translators: 1: Month name, 2: 4-digit year.
-#: wp-includes/media.php:4205 wp-includes/general-template.php:2027
+#: wp-includes/media.php:4206 wp-includes/general-template.php:2027
 #: wp-admin/includes/class-wp-list-table.php:657
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
@@ -14375,7 +14375,7 @@ msgid "Automatically add paragraphs"
 msgstr "Автоматически добавлять абзацы"
 
 #: wp-includes/widgets/class-wp-widget-text.php:42
-#: wp-includes/js/dist/blocks.js:5997
+#: wp-includes/js/dist/blocks.js:5998
 msgid "Text"
 msgstr "Текст"
 
@@ -14633,7 +14633,7 @@ msgid "Sorry, comments are closed for this item."
 msgstr "Извините, обсуждение этой записи закрыто."
 
 #: wp-includes/admin-bar.php:973 wp-includes/class-wp-customize-widgets.php:415
-#: wp-includes/functions.php:4741 wp-includes/js/dist/blocks.js:6006
+#: wp-includes/functions.php:4741 wp-includes/js/dist/blocks.js:6007
 #: wp-includes/js/dist/core-data.js:2137 wp-admin/widgets.php:49
 msgid "Widgets"
 msgstr "Виджеты"
@@ -14873,10 +14873,10 @@ msgstr "Помощь"
 #: wp-includes/script-loader.php:1093
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:113
 #: wp-includes/blocks/rss.php:31 wp-includes/blocks/latest-comments.php:31
-#: wp-includes/blocks/latest-posts.php:102 wp-includes/media.php:3875
+#: wp-includes/blocks/latest-posts.php:102 wp-includes/media.php:3876
 #: wp-includes/js/dist/editor.js:10117 wp-includes/js/dist/editor.js:12538
 #: wp-includes/js/dist/edit-post.js:7545
-#: wp-includes/js/dist/block-library.js:18408 wp-admin/includes/media.php:3312
+#: wp-includes/js/dist/block-library.js:18408 wp-admin/includes/media.php:3313
 #: wp-admin/includes/revision.php:59 wp-admin/includes/revision.php:62
 #: wp-admin/includes/template.php:1984 wp-admin/includes/ajax-actions.php:2186
 #: wp-admin/js/inline-edit-post.js:201
@@ -14895,7 +14895,7 @@ msgstr "Изменить медиафайл"
 msgid "New Page"
 msgstr "Новая страница"
 
-#: wp-includes/media.php:4271 wp-includes/js/dist/editor.js:6393
+#: wp-includes/media.php:4272 wp-includes/js/dist/editor.js:6393
 #: wp-includes/js/dist/block-editor.js:38805
 #: wp-includes/js/dist/edit-post.js:5847
 #: wp-includes/js/dist/block-library.js:24951
@@ -14980,8 +14980,8 @@ msgstr "Версия"
 
 #: wp-includes/admin-bar.php:1064 wp-includes/admin-bar.php:1065
 #: wp-includes/blocks/search.php:25 wp-includes/blocks/search.php:26
-#: wp-includes/blocks/search.php:52 wp-includes/media.php:4270
-#: wp-includes/media.php:4314 wp-includes/class-wp-editor.php:1856
+#: wp-includes/blocks/search.php:52 wp-includes/media.php:4271
+#: wp-includes/media.php:4315 wp-includes/class-wp-editor.php:1856
 #: wp-includes/js/dist/block-library.js:21395
 #: wp-includes/js/dist/block-library.js:21396
 #: wp-includes/js/dist/block-library.js:21455
@@ -15021,7 +15021,7 @@ msgid "Add or remove tags"
 msgstr "Добавить или удалить метки"
 
 #: wp-login.php:732 wp-includes/script-loader.php:1091
-#: wp-includes/media.php:4273 wp-includes/js/dist/editor.js:8790
+#: wp-includes/media.php:4274 wp-includes/js/dist/editor.js:8790
 #: wp-admin/includes/class-wp-plugins-list-table.php:610
 #: wp-admin/includes/meta-boxes.php:370 wp-admin/includes/meta-boxes.php:371
 #: wp-admin/includes/meta-boxes.php:452 wp-admin/includes/meta-boxes.php:453
@@ -15031,13 +15031,13 @@ msgstr "Добавить или удалить метки"
 #: wp-admin/includes/class-wp-posts-list-table.php:1931
 #: wp-admin/includes/class-wp-posts-list-table.php:1934
 #: wp-admin/edit-tag-form.php:274 wp-admin/edit-form-comment.php:208
-#: wp-admin/js/post.js:764 wp-admin/js/post.js:787
+#: wp-admin/js/post.js:772 wp-admin/js/post.js:795
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:476
 msgid "Update"
 msgstr "Обновить"
 
 #: wp-includes/js/dist/editor.js:9076 wp-admin/includes/meta-boxes.php:178
-#: wp-admin/includes/meta-boxes.php:195 wp-admin/js/post.js:866
+#: wp-admin/includes/meta-boxes.php:195 wp-admin/js/post.js:874
 #: wp-admin/network/site-info.php:184
 msgid "Public"
 msgstr "Открыто"
@@ -15046,13 +15046,13 @@ msgstr "Открыто"
 #: wp-includes/js/dist/editor.js:9080 wp-admin/includes/meta-boxes.php:169
 #: wp-admin/includes/meta-boxes.php:204
 #: wp-admin/includes/class-wp-posts-list-table.php:1635
-#: wp-admin/includes/class-wp-posts-list-table.php:1835 wp-admin/js/post.js:869
+#: wp-admin/includes/class-wp-posts-list-table.php:1835 wp-admin/js/post.js:877
 msgid "Private"
 msgstr "Личное"
 
 #: wp-includes/class-wp-editor.php:1177 wp-includes/js/dist/components.js:29837
 #: wp-admin/includes/meta-boxes.php:154 wp-admin/includes/meta-boxes.php:207
-#: wp-admin/includes/template.php:861 wp-admin/js/post.js:989
+#: wp-admin/includes/template.php:861 wp-admin/js/post.js:997
 msgid "OK"
 msgstr "OK"
 
@@ -15061,9 +15061,9 @@ msgid "Image URL"
 msgstr "Адрес (URL)"
 
 #. translators: Default privacy policy heading.
-#: wp-includes/media.php:4267 wp-includes/media.php:4832
+#: wp-includes/media.php:4268 wp-includes/media.php:4833
 #: wp-includes/class-wp-editor.php:1229
-#: wp-includes/js/dist/block-editor.js:38283 wp-includes/js/dist/blocks.js:6000
+#: wp-includes/js/dist/block-editor.js:38283 wp-includes/js/dist/blocks.js:6001
 #: wp-includes/js/dist/core-data.js:2112
 #: wp-admin/includes/class-wp-privacy-policy-content.php:525
 #: wp-admin/includes/media.php:2567 wp-admin/export.php:291
@@ -15096,7 +15096,7 @@ msgid "Size"
 msgstr "Размер"
 
 #: wp-includes/media-template.php:857 wp-includes/media-template.php:937
-#: wp-includes/media-template.php:1128 wp-includes/media.php:3918
+#: wp-includes/media-template.php:1128 wp-includes/media.php:3919
 #: wp-includes/js/dist/block-editor.js:20412
 #: wp-admin/includes/class-custom-background.php:600
 #: wp-admin/includes/media.php:1169 wp-admin/edit-form-blocks.php:229
@@ -15104,7 +15104,7 @@ msgid "Full Size"
 msgstr "Полный"
 
 #: wp-includes/media-template.php:855 wp-includes/media-template.php:935
-#: wp-includes/media-template.php:1126 wp-includes/media.php:3916
+#: wp-includes/media-template.php:1126 wp-includes/media.php:3917
 #: wp-includes/js/dist/components.js:35852
 #: wp-includes/js/dist/block-editor.js:20406
 #: wp-admin/includes/class-custom-background.php:598
@@ -15164,7 +15164,7 @@ msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
 msgstr "Файла &laquo;%s&raquo; не существует?"
 
 #: wp-includes/media-template.php:854 wp-includes/media-template.php:934
-#: wp-includes/media-template.php:1125 wp-includes/media.php:3915
+#: wp-includes/media-template.php:1125 wp-includes/media.php:3916
 #: wp-includes/js/dist/block-editor.js:20403
 #: wp-admin/includes/class-custom-background.php:597
 #: wp-admin/includes/image-edit.php:234 wp-admin/includes/media.php:1166
@@ -15241,7 +15241,7 @@ msgstr "Ответить"
 #: wp-includes/script-loader.php:1127
 #: wp-includes/class-wp-customize-manager.php:4821
 #: wp-admin/includes/meta-boxes.php:56 wp-admin/includes/dashboard.php:566
-#: wp-admin/js/post.js:822
+#: wp-admin/js/post.js:830
 msgid "Save Draft"
 msgstr "Сохранить"
 
@@ -15255,7 +15255,7 @@ msgstr "Метки"
 msgid "Content"
 msgstr "Содержимое"
 
-#: wp-includes/script-loader.php:1137 wp-includes/media.php:4272
+#: wp-includes/script-loader.php:1137 wp-includes/media.php:4273
 #: wp-includes/class-wp-editor.php:1178 wp-includes/class-wp-editor.php:1881
 #: wp-includes/js/dist/components.js:29977 wp-includes/js/dist/editor.js:10272
 #: wp-includes/js/dist/block-editor.js:38324
@@ -15273,7 +15273,7 @@ msgstr "Содержимое"
 #: wp-admin/options-general.php:129 wp-admin/comment.php:244
 #: wp-admin/nav-menus.php:1076 wp-admin/widgets.php:353
 #: wp-admin/widgets.php:356 wp-admin/widgets.php:569 wp-admin/user-edit.php:531
-#: wp-admin/user-edit.php:646 wp-admin/js/post.js:989
+#: wp-admin/user-edit.php:646 wp-admin/js/post.js:997
 #: wp-admin/network/settings.php:181
 msgid "Cancel"
 msgstr "Отмена"
@@ -15474,7 +15474,7 @@ msgstr "Отрывок"
 #: wp-includes/js/dist/edit-post.js:4168 wp-includes/js/dist/edit-post.js:6497
 #: wp-admin/includes/meta-boxes.php:358 wp-admin/includes/meta-boxes.php:359
 #: wp-admin/includes/meta-boxes.php:1465 wp-admin/customize.php:189
-#: wp-admin/js/post.js:761
+#: wp-admin/js/post.js:769
 msgid "Publish"
 msgstr "Опубликовать"
 
@@ -15493,7 +15493,7 @@ msgstr "Опубликовать"
 msgid "Comments"
 msgstr "Комментарии"
 
-#: wp-includes/class-wp-customize-widgets.php:775 wp-includes/media.php:4311
+#: wp-includes/class-wp-customize-widgets.php:775 wp-includes/media.php:4312
 #: wp-includes/class-wp-editor.php:1386
 #: wp-includes/js/dist/block-editor.js:37972
 #: wp-includes/js/dist/block-editor.js:38094
@@ -15587,8 +15587,8 @@ msgstr "Комментарий"
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
 #: wp-includes/media-template.php:837 wp-includes/media-template.php:1063
 #: wp-includes/media-template.php:1186 wp-includes/media-template.php:1260
-#: wp-includes/media-template.php:1351 wp-includes/media.php:4268
-#: wp-includes/media.php:4825
+#: wp-includes/media-template.php:1351 wp-includes/media.php:4269
+#: wp-includes/media.php:4826
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:94
 #: wp-includes/class-wp-editor.php:1261 wp-includes/class-wp-editor.php:1840
 #: wp-includes/class-wp-customize-nav-menus.php:1257
@@ -15667,7 +15667,7 @@ msgstr "На утверждении"
 #: wp-includes/post.php:971 wp-admin/includes/meta-boxes.php:111
 #: wp-admin/includes/meta-boxes.php:141 wp-admin/includes/ajax-actions.php:2192
 #: wp-admin/includes/class-wp-posts-list-table.php:1093
-#: wp-admin/includes/class-wp-posts-list-table.php:1832 wp-admin/js/post.js:802
+#: wp-admin/includes/class-wp-posts-list-table.php:1832 wp-admin/js/post.js:810
 msgid "Published"
 msgstr "Опубликовано"
 

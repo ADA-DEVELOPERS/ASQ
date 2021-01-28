@@ -121,22 +121,13 @@
     }
 
 
-    @media (max-width: 799px) {
-    #top-area {
-    display: none;
-    }
-    }
 
     #primary-menu.no-responsive > li > a,
     #primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header a{
-    font-family: 'Montserrat';
+    font-family: 'Didact Gothic';
     }
 
-    #primary-menu.no-responsive > li > a,
-    #primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header a{
-    font-weight: 500;
-    }
-    
+
     #primary-menu.no-responsive > li > a,
     #primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header a{
     font-size: 17px;
@@ -150,10 +141,10 @@
     #primary-menu.no-responsive > li.megamenu-enable > ul li > a,
     #primary-menu.no-responsive > li li > a,
     .portfolio-filters-resp ul li a{
-    font-family: 'Montserrat';
+    font-family: 'Didact Gothic';
     }
     .primary-navigation.responsive li a {
-    font-family: 'Montserrat';
+    font-family: 'Didact Gothic';
     }
 
     #primary-menu.no-responsive > li.megamenu-enable > ul li > a,
@@ -1095,7 +1086,7 @@
 
 
     body {
-    background-color: #f0f4f7;
+    background-color: #FFF;
     }
 
     #site-header,

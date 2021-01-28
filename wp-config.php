@@ -20,7 +20,7 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'asq' );
+define( 'DB_NAME', 'panel.asq' );
 
 /** Имя пользователя MySQL */
 define( 'DB_USER', 'asq' );
@@ -29,7 +29,7 @@ define( 'DB_USER', 'asq' );
 define( 'DB_PASSWORD', 'asq' );
 
 /** Имя сервера MySQL */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'openserver' );
 
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8mb4' );

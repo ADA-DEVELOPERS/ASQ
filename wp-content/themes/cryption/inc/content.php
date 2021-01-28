@@ -95,13 +95,7 @@ function cryption_related_posts() {
 							<div class="related-element-info-conteiner">
 								<?php the_title('<a href="'.esc_url(get_permalink()).'">', '</a>'); ?>
 							</div>
-							<div class="post-meta date-color">
-								<div class="entry-meta clearfix">
-									<div class="post-meta-left">
-										<span class="post-meta-date ct-post-date ct-date-color small-body"><?php echo get_the_date(); ?></span>
-									</div>
-								</div><!-- .entry-meta -->
-							</div>
+							
 						</div>
 					</div>
 				<?php endwhile; wp_reset_postdata() ?>

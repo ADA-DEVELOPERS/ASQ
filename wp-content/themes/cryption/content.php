@@ -5,7 +5,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="row">
 		<div class="item-post">
-			
+
 			<div class="post-text col-md-<?php echo has_post_thumbnail() ? 9 : 12; ?>">
 				<header class="entry-header">
 
@@ -26,7 +26,7 @@
 						endif;
 
 						?>
-						<?php the_tags('<span class="entry-meta">|<span class="tag-links">', '|', '</span></span>'); ?>
+						<!-- <?php the_tags('<span class="entry-meta">|<span class="tag-links">', '|', '</span></span>'); ?> -->
 
 					</div>
 					<!-- .entry-meta -->
@@ -38,7 +38,7 @@
 						<?php the_excerpt(); ?>
 					</div><!-- .entry-summary -->
 				<?php else : ?>
-					<div class="entry-content">
+					<!-- <div class="entry-content">
 						<?php
 						the_content(wp_kses(__('Continue reading <span class="meta-nav">&rarr;</span>', 'cryption'), array('span' => array('class' => array()))));
 						wp_link_pages(array(
@@ -47,7 +47,7 @@
 							'link_before' => '<span>',
 							'link_after' => '</span>',
 						));
-						?>
+						?> -->
 					</div><!-- .entry-content -->
 				<?php endif; ?>
 			</div>

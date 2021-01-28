@@ -86,16 +86,7 @@
 		<?php endif; ?>
 		<div class="description">
 
-			<div class="post-meta-container date-color">
-				<div class="post-meta-date">
-				<?php echo get_the_date(); ?>
-				<?php if(!$params['hide_author']) : ?><span class="post-meta-author"><?php printf( esc_html__( "by %s", "cryption" ), get_the_author_link() ) ?></span><?php endif; ?>
-				</div>
-				<div class="post-meta-likes">
-					<?php if( function_exists('zilla_likes') ) { echo '<span class="post-meta-like">';zilla_likes();echo '</span>'; } ?>
-
-				</div>
-			</div>
+			
 
 			<div class="post-title">
 				<?php the_title('<h5 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h5>'); ?>

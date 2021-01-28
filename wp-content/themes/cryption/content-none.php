@@ -14,4 +14,5 @@
 	<?php endif; ?>
 	<?php add_filter( 'get_search_form', 'cryption_search_form_nothing_found' ); get_search_form(); remove_filter( 'get_search_form', 'cryption_search_form_nothing_found' ); ?>
 
-</div><!-- .page-content -->
+</div>
+<!-- .page-content -->

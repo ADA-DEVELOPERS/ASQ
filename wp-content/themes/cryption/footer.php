@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 /**
  * The template for displaying the footer
  */
@@ -7,7 +7,8 @@ $id = is_singular() ? get_the_ID() : 0;
 $effects_params = cryption_get_sanitize_page_effects_data($id);
 ?>
 
-</div><!-- #main -->
+</div>
+<!- #main -->
 
 <?php if(empty($effects_params['effects_hide_footer'])) : ?>
 <?php if(is_active_sidebar('pre-footer-widget-area')) : ?>
