@@ -2,7 +2,7 @@
 
 define('CT_THEME_IMPORT_CHECK', 1);
 define('CT_THEME_IMPORT_CONCEPT_CHECK', 1);
-define('CT_THEME_IMPORT_NEED_ACTIVATION', 1);
+define('CT_THEME_IMPORT_NEED_ACTIVATION', 0);
 define('CT_THEME_ENVATO_ID', 21714401);
 
 function cryption_import_title($title) {
