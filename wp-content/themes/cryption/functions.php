@@ -2166,3 +2166,163 @@ function cryption_get_footers_list() {
 	return $items;
 }
 add_filter('wp_nav_menu_items', 'cryption_menu_item_button', 50, 2);*/
+function cptui_register_my_cpts() {
+
+	/**
+	 * Post Type: ASIC's.
+	 */
+
+	$labels = [
+		"name" => __( "ASIC's", "custom-post-type-ui" ),
+		"singular_name" => __( "ASIC", "custom-post-type-ui" ),
+		"all_items" => __( "Все АСИКи", "custom-post-type-ui" ),
+		"add_new" => __( "Добавить АСИК", "custom-post-type-ui" ),
+	];
+
+	$args = [
+		"label" => __( "ASIC's", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "asics", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-table-col-delete",
+		"supports" => [ "title" ],
+	];
+
+	register_post_type( "asics", $args );
+
+	/**
+	 * Post Type: Ремонт.
+	 */
+
+	$labels = [
+		"name" => __( "Ремонт", "custom-post-type-ui" ),
+		"singular_name" => __( "Ремонт", "custom-post-type-ui" ),
+		"all_items" => __( "Лог ремонта", "custom-post-type-ui" ),
+		"add_new" => __( "Новый ремонт", "custom-post-type-ui" ),
+	];
+
+	$args = [
+		"label" => __( "Ремонт", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "repair", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-admin-tools",
+		"supports" => [ "title", "editor", "thumbnail" ],
+	];
+
+	register_post_type( "repair", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts' );
+function cptui_register_my_cpts_asics() {
+
+	/**
+	 * Post Type: ASIC's.
+	 */
+
+	$labels = [
+		"name" => __( "ASIC's", "custom-post-type-ui" ),
+		"singular_name" => __( "ASIC", "custom-post-type-ui" ),
+		"all_items" => __( "Все АСИКи", "custom-post-type-ui" ),
+		"add_new" => __( "Добавить АСИК", "custom-post-type-ui" ),
+	];
+
+	$args = [
+		"label" => __( "ASIC's", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "asics", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-table-col-delete",
+		"supports" => [ "title" ],
+	];
+
+	register_post_type( "asics", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_asics' );
+function cptui_register_my_cpts_repair() {
+
+	/**
+	 * Post Type: Ремонт.
+	 */
+
+	$labels = [
+		"name" => __( "Ремонт", "custom-post-type-ui" ),
+		"singular_name" => __( "Ремонт", "custom-post-type-ui" ),
+		"all_items" => __( "Лог ремонта", "custom-post-type-ui" ),
+		"add_new" => __( "Новый ремонт", "custom-post-type-ui" ),
+	];
+
+	$args = [
+		"label" => __( "Ремонт", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "repair", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-admin-tools",
+		"supports" => [ "title", "editor", "thumbnail" ],
+	];
+
+	register_post_type( "repair", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_repair' );
