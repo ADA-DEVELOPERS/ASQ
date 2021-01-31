@@ -37,7 +37,7 @@ else :
 		<div class="container">
 			<div class="<?php echo esc_attr(implode(' ', $cryption_panel_classes)); ?>">
 				<div class="<?php echo esc_attr($cryption_center_classes); ?>">
-				
+
 				<?php if ( get_field('asic-searial') ) { ?>
 					<?php the_field('asic-searial'); ?>
 				<?php } ?>
@@ -89,7 +89,7 @@ else :
 				<?php if ( get_field('сontrol_unit_wo') ) { ?>
 					<?php the_field('сontrol_unit_wo'); ?>
 				<?php } ?>
-				
+
 				</div>
 			</div>
 		</div><!-- .container -->
