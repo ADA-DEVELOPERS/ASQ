@@ -13,7 +13,6 @@ if(is_active_sidebar('page-sidebar')) {
 }
 
 ?>
-
 <div id="main-content" class="main-content">
 
 <?php

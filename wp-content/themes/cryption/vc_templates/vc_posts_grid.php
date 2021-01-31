@@ -18,7 +18,21 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var $content - shortcode content
  * Shortcode class
  * @var $this WPBakeryShortCode_VC_Posts_Grid
- */
+ */<?php $group_fields = get_field('имя_поля_с_типом_группа'); ?>
+
+<?php if ($group_fields) { ?>
+
+    <?php foreach ($group_fields as $key => $item) { ?>
+        <?php if ($item) { ?>
+                <img
+                    src="<?php echo esc_url($group_fields[$key]['sizes']['large']); ?>"
+                    alt="<?php echo esc_attr($group_fields[$key]['alt']); ?>"
+                    class="responsive"
+                >
+        <?php } ?>
+    <?php } ?>
+
+<?php } ?>
 $title = $grid_columns_count = $grid_teasers_count = $grid_layout =
 $grid_link_target = $filter = $grid_thumb_size = $grid_layout_mode = $el_class = $loop = '';
 
