@@ -13,57 +13,95 @@ get_header(); ?>
 		<div class="container">
 			<div class="<?php echo esc_attr(implode(' ', $cryption_panel_classes)); ?>">
 				<div class="<?php echo esc_attr($cryption_center_classes); ?>">
+				
+				<h4>Общая информация</h4>
+				<div class="item"><b class="item-name">Номер асика:</b>
 				<?php if ( get_field('asic-searial') ) { ?>
 					<?php the_field('asic-searial'); ?>
 				<?php } ?>
+				</div>
+				<div class="item"><b class="item-name">Статус асика:</b>
 				<?php if ( get_field('asic-status') ) { ?>
 					<?php the_field('asic-status'); ?>
 				<?php } ?>
-				<?php if ( get_field('asic-maintenance-reason') ) { ?>
-					<?php the_field('asic-maintenance-reason'); ?>
-				<?php } ?>
+				</div>
+				<div class="item"><b class="item-name">Локация:</b>
+				<span class="loc"><?php if ( get_field('asic-location') ) { ?>
+					<?php the_field('asic-location'); ?>
+				<?php } ?></span>
+				</div>
+				<div class="item"><b class="item-name">IP Адрес:</b>
 				<?php if ( get_field('asic-ip') ) { ?>
 					<?php the_field('asic-ip'); ?>
-				<?php } ?>
-				<?php if ( get_field('asic-location') ) { ?>
-					<?php the_field('asic-location'); ?>
-				<?php } ?>
+				<?php } ?> 
+				</div>
+				<div class="item"><b class="item-name">Poll:</b>
 				<?php if ( get_field('asic-poll') ) { ?>
 					<?php the_field('asic-poll'); ?>
-				<?php } ?>
+				<?php } ?> 
+				</div>
+				<div class="item"><b class="item-name">Владелец асика:</b>
 				<?php if ( get_field('asic-owner') ) { ?>
 					<?php the_field('asic-owner'); ?>
-				<?php } ?>
+				<?php } ?> 
+				</div>
+				<div class="item"><b class="item-name">Страна владельца:</b>
+				<?php if ( get_field('asic-owner-country') ) { ?>
+					<?php the_field('asic-owner-country'); ?>
+				<?php } ?> 
+				</div>
+				<div class="item"><b class="item-name">Дата установки:</b>
 				<?php if ( get_field('asic-install-date') ) { ?>
 					<?php the_field('asic-install-date'); ?>
-				<?php } ?>
-				<?php if ( get_field('asic-model') ) { ?>
-					<?php the_field('asic-model'); ?>
-				<?php } ?>
+				<?php } ?> 
+				</div>
+				
+				<h4>Информация об Асике</h4>
+				<div class="item"><b class="item-name">Модель асика:</b>
 				<?php if ( get_field('asic_mode') ) { ?>
 					<?php the_field('asic_mode'); ?>
-				<?php } ?>
+				<?php } ?> 
+				</div>
+				<div class="item"><b class="item-name">Версия асика:</b>
 				<?php if ( get_field('Asic_VERSION') ) { ?>
 					<?php the_field('Asic_VERSION'); ?>
-				<?php } ?>
+				<?php } ?> 
+				</div>
+				<h4>Информация о блоке питания</h4>
+				<div class="item"><b class="item-name">Модель БП:</b>
 				<?php if ( get_field('Power_Supply_MODEL') ) { ?>
 					<?php the_field('Power_Supply_MODEL'); ?>
 				<?php } ?>
+				</div>
+				<div class="item"><b class="item-name">Номер БП:</b>
 				<?php if ( get_field('power_supply-NO') ) { ?>
 					<?php the_field('power_supply-NO'); ?>
 				<?php } ?>
+				</div>
+				<div class="item"><b class="item-name">Серийный номер БП:</b>
 				<?php if ( get_field('power_supply-SN') ) { ?>
 					<?php the_field('power_supply-SN'); ?>
 				<?php } ?>
+				</div>
+				<h4>Информация о модуле интернет</h4>
+				<div class="item"><b class="item-name">Модель МИ:</b>
 				<?php if ( get_field('сontrol_unit-MODEL') ) { ?>
 					<?php the_field('сontrol_unit-MODEL'); ?>
 				<?php } ?>
+				</div>
+				<div class="item"><b class="item-name">Серийный номер МИ:</b>
 				<?php if ( get_field('сontrol_unit_sn') ) { ?>
 					<?php the_field('сontrol_unit_sn'); ?>
 				<?php } ?>
+				</div>
+				<div class="item"><b class="item-name">Номер заказа МИ:</b>
 				<?php if ( get_field('сontrol_unit_wo') ) { ?>
 					<?php the_field('сontrol_unit_wo'); ?>
 				<?php } ?>
+				</div>
+				
+				
+				
 				</div>
 			</div>
 		</div><!-- .container -->

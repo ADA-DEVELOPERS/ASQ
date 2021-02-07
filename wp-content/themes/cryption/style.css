@@ -9370,3 +9370,11 @@ body .footer-map{
 body .widget.inline-column{
     margin-bottom: 0 !important;
 }
+.item-name {
+    color: #000;
+    font-weight: bold;
+}
+span.loc {
+    color: #a92727;
+    font-weight: bold;
+}
