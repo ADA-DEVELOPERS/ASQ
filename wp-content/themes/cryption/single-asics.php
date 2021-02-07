@@ -14,7 +14,7 @@ get_header(); ?>
 			<div class="<?php echo esc_attr(implode(' ', $cryption_panel_classes)); ?>">
 				<div class="<?php echo esc_attr($cryption_center_classes); ?>">
 				
-				<h4>Общая информация</h4>
+				<h4 class="asiic-info">Общая информация</h4>
 				<div class="item"><b class="item-name">Номер асика:</b>
 				<?php if ( get_field('asic-searial') ) { ?>
 					<?php the_field('asic-searial'); ?>
@@ -56,7 +56,7 @@ get_header(); ?>
 				<?php } ?> 
 				</div>
 				
-				<h4>Информация об Асике</h4>
+				<h4 class="asiic-info">Информация об Асике</h4>
 				<div class="item"><b class="item-name">Модель асика:</b>
 				<?php if ( get_field('asic_mode') ) { ?>
 					<?php the_field('asic_mode'); ?>
@@ -67,7 +67,7 @@ get_header(); ?>
 					<?php the_field('Asic_VERSION'); ?>
 				<?php } ?> 
 				</div>
-				<h4>Информация о блоке питания</h4>
+				<h4 class="asiic-info">Информация о блоке питания</h4>
 				<div class="item"><b class="item-name">Модель БП:</b>
 				<?php if ( get_field('Power_Supply_MODEL') ) { ?>
 					<?php the_field('Power_Supply_MODEL'); ?>
@@ -83,7 +83,7 @@ get_header(); ?>
 					<?php the_field('power_supply-SN'); ?>
 				<?php } ?>
 				</div>
-				<h4>Информация о модуле интернет</h4>
+				<h4 class="asiic-info">Информация о модуле интернет</h4>
 				<div class="item"><b class="item-name">Модель МИ:</b>
 				<?php if ( get_field('сontrol_unit-MODEL') ) { ?>
 					<?php the_field('сontrol_unit-MODEL'); ?>
