@@ -9378,3 +9378,8 @@ span.loc {
     color: #a92727;
     font-weight: bold;
 }
+h1.title-xlarge.light {
+    font-size: 50px;
+    color: #16f263;
+	padding: 20px 0px;
+}
